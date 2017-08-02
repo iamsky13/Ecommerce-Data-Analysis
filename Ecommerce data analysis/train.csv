@@ -1,0 +1,892 @@
+CustomerId,Survived,Name,Sex,Age,Sib_Sp,Par_ch,Cost,Delivery Channel,Payment,city
+1,0,"Braund, Mr. Owen Harris",male,22,1,0,7.25,,S,Helsinki
+2,1,"Cumings, Mrs. John Bradley (Florence Briggs Thayer)",female,38,1,0,71.2833,C85,C,Tampere
+3,1,"Heikkinen, Miss. Laina",female,26,0,0,7.925,,S,Helsinki
+4,1,"Futrelle, Mrs. Jacques Heath (Lily May Peel)",female,35,1,0,53.1,C123,S,Tampere
+5,0,"Allen, Mr. William Henry",male,35,0,0,8.05,,S,Helsinki
+6,0,"Moran, Mr. James",male,NA,0,0,8.4583,,Q,Helsinki
+7,0,"McCarthy, Mr. Timothy J",male,54,0,0,51.8625,E46,S,Tampere
+8,0,"Palsson, Master. Gosta Leonard",male,2,3,1,21.075,,S,Helsinki
+9,1,"Johnson, Mrs. Oscar W (Elisabeth Vilhelmina Berg)",female,27,0,2,11.1333,,S,Helsinki
+10,1,"Nasser, Mrs. Nicholas (Adele Achem)",female,14,1,0,30.0708,,C,Pori
+11,1,"Sandstrom, Miss. Marguerite Rut",female,4,1,1,16.7,G6,S,Helsinki
+12,1,"Bonnell, Miss. Elizabeth",female,58,0,0,26.55,C103,S,Tampere
+13,0,"Saundercock, Mr. William Henry",male,20,0,0,8.05,,S,Helsinki
+14,0,"Andersson, Mr. Anders Johan",male,39,1,5,31.275,,S,Helsinki
+15,0,"Vestrom, Miss. Hulda Amanda Adolfina",female,14,0,0,7.8542,,S,Helsinki
+16,1,"Hewlett, Mrs. (Mary D Kingcome) ",female,55,0,0,16,,S,Pori
+17,0,"Rice, Master. Eugene",male,2,4,1,29.125,,Q,Helsinki
+18,1,"Williams, Mr. Charles Eugene",male,NA,0,0,13,,S,Pori
+19,0,"Vander Planke, Mrs. Julius (Emelia Maria Vandemoortele)",female,31,1,0,18,,S,Helsinki
+20,1,"Masselmani, Mrs. Fatima",female,NA,0,0,7.225,,C,Helsinki
+21,0,"Fynney, Mr. Joseph J",male,35,0,0,26,,S,Pori
+22,1,"Beesley, Mr. Lawrence",male,34,0,0,13,D56,S,Pori
+23,1,"McGowan, Miss. Anna ""Annie""",female,15,0,0,8.0292,,Q,Helsinki
+24,1,"Sloper, Mr. William Thompson",male,28,0,0,35.5,A6,S,Tampere
+25,0,"Palsson, Miss. Torborg Danira",female,8,3,1,21.075,,S,Helsinki
+26,1,"Asplund, Mrs. Carl Oscar (Selma Augusta Emilia Johansson)",female,38,1,5,31.3875,,S,Helsinki
+27,0,"Emir, Mr. Farred Chehab",male,NA,0,0,7.225,,C,Helsinki
+28,0,"Fortune, Mr. Charles Alexander",male,19,3,2,263,C23 C25 C27,S,Tampere
+29,1,"O'Dwyer, Miss. Ellen ""Nellie""",female,NA,0,0,7.8792,,Q,Helsinki
+30,0,"Todoroff, Mr. Lalio",male,NA,0,0,7.8958,,S,Helsinki
+31,0,"Uruchurtu, Don. Manuel E",male,40,0,0,27.7208,,C,Tampere
+32,1,"Spencer, Mrs. William Augustus (Marie Eugenie)",female,NA,1,0,146.5208,B78,C,Tampere
+33,1,"Glynn, Miss. Mary Agatha",female,NA,0,0,7.75,,Q,Helsinki
+34,0,"Wheadon, Mr. Edward H",male,66,0,0,10.5,,S,Pori
+35,0,"Meyer, Mr. Edgar Joseph",male,28,1,0,82.1708,,C,Tampere
+36,0,"Holverson, Mr. Alexander Oskar",male,42,1,0,52,,S,Tampere
+37,1,"Mamee, Mr. Hanna",male,NA,0,0,7.2292,,C,Helsinki
+38,0,"Cann, Mr. Ernest Charles",male,21,0,0,8.05,,S,Helsinki
+39,0,"Vander Planke, Miss. Augusta Maria",female,18,2,0,18,,S,Helsinki
+40,1,"Nicola-Yarred, Miss. Jamila",female,14,1,0,11.2417,,C,Helsinki
+41,0,"Ahlin, Mrs. Johan (Johanna Persdotter Larsson)",female,40,1,0,9.475,,S,Helsinki
+42,0,"Turpin, Mrs. William John Robert (Dorothy Ann Wonnacott)",female,27,1,0,21,,S,Pori
+43,0,"Kraeff, Mr. Theodor",male,NA,0,0,7.8958,,C,Helsinki
+44,1,"Laroche, Miss. Simonne Marie Anne Andree",female,3,1,2,41.5792,,C,Pori
+45,1,"Devaney, Miss. Margaret Delia",female,19,0,0,7.8792,,Q,Helsinki
+46,0,"Rogers, Mr. William John",male,NA,0,0,8.05,,S,Helsinki
+47,0,"Lennon, Mr. Denis",male,NA,1,0,15.5,,Q,Helsinki
+48,1,"O'Driscoll, Miss. Bridget",female,NA,0,0,7.75,,Q,Helsinki
+49,0,"Samaan, Mr. Youssef",male,NA,2,0,21.6792,,C,Helsinki
+50,0,"Arnold-Franchi, Mrs. Josef (Josefine Franchi)",female,18,1,0,17.8,,S,Helsinki
+51,0,"Panula, Master. Juha Niilo",male,7,4,1,39.6875,,S,Helsinki
+52,0,"Nosworthy, Mr. Richard Cater",male,21,0,0,7.8,,S,Helsinki
+53,1,"Harper, Mrs. Henry Sleeper (Myna Haxtun)",female,49,1,0,76.7292,D33,C,Tampere
+54,1,"Faunthorpe, Mrs. Lizzie (Elizabeth Anne Wilkinson)",female,29,1,0,26,,S,Pori
+55,0,"Ostby, Mr. Engelhart Cornelius",male,65,0,1,61.9792,B30,C,Tampere
+56,1,"Woolner, Mr. Hugh",male,NA,0,0,35.5,C52,S,Tampere
+57,1,"Rugg, Miss. Emily",female,21,0,0,10.5,,S,Pori
+58,0,"Novel, Mr. Mansouer",male,28.5,0,0,7.2292,,C,Helsinki
+59,1,"West, Miss. Constance Mirium",female,5,1,2,27.75,,S,Pori
+60,0,"Goodwin, Master. William Frederick",male,11,5,2,46.9,,S,Helsinki
+61,0,"Sirayanian, Mr. Orsen",male,22,0,0,7.2292,,C,Helsinki
+62,1,"Icard, Miss. Amelie",female,38,0,0,80,B28,,Tampere
+63,0,"Harris, Mr. Henry Birkhardt",male,45,1,0,83.475,C83,S,Tampere
+64,0,"Skoog, Master. Harald",male,4,3,2,27.9,,S,Helsinki
+65,0,"Stewart, Mr. Albert A",male,NA,0,0,27.7208,,C,Tampere
+66,1,"Moubarek, Master. Gerios",male,NA,1,1,15.2458,,C,Helsinki
+67,1,"Nye, Mrs. (Elizabeth Ramell)",female,29,0,0,10.5,F33,S,Pori
+68,0,"Crease, Mr. Ernest James",male,19,0,0,8.1583,,S,Helsinki
+69,1,"Andersson, Miss. Erna Alexandra",female,17,4,2,7.925,,S,Helsinki
+70,0,"Kink, Mr. Vincenz",male,26,2,0,8.6625,,S,Helsinki
+71,0,"Jenkin, Mr. Stephen Curnow",male,32,0,0,10.5,,S,Pori
+72,0,"Goodwin, Miss. Lillian Amy",female,16,5,2,46.9,,S,Helsinki
+73,0,"Hood, Mr. Ambrose Jr",male,21,0,0,73.5,,S,Pori
+74,0,"Chronopoulos, Mr. Apostolos",male,26,1,0,14.4542,,C,Helsinki
+75,1,"Bing, Mr. Lee",male,32,0,0,56.4958,,S,Helsinki
+76,0,"Moen, Mr. Sigurd Hansen",male,25,0,0,7.65,F G73,S,Helsinki
+77,0,"Staneff, Mr. Ivan",male,NA,0,0,7.8958,,S,Helsinki
+78,0,"Moutal, Mr. Rahamin Haim",male,NA,0,0,8.05,,S,Helsinki
+79,1,"Caldwell, Master. Alden Gates",male,0.83,0,2,29,,S,Pori
+80,1,"Dowdell, Miss. Elizabeth",female,30,0,0,12.475,,S,Helsinki
+81,0,"Waelens, Mr. Achille",male,22,0,0,9,,S,Helsinki
+82,1,"Sheerlinck, Mr. Jan Baptist",male,29,0,0,9.5,,S,Helsinki
+83,1,"McDermott, Miss. Brigdet Delia",female,NA,0,0,7.7875,,Q,Helsinki
+84,0,"Carrau, Mr. Francisco M",male,28,0,0,47.1,,S,Tampere
+85,1,"Ilett, Miss. Bertha",female,17,0,0,10.5,,S,Pori
+86,1,"Backstrom, Mrs. Karl Alfred (Maria Mathilda Gustafsson)",female,33,3,0,15.85,,S,Helsinki
+87,0,"Ford, Mr. William Neal",male,16,1,3,34.375,,S,Helsinki
+88,0,"Slocovski, Mr. Selman Francis",male,NA,0,0,8.05,,S,Helsinki
+89,1,"Fortune, Miss. Mabel Helen",female,23,3,2,263,C23 C25 C27,S,Tampere
+90,0,"Celotti, Mr. Francesco",male,24,0,0,8.05,,S,Helsinki
+91,0,"Christmann, Mr. Emil",male,29,0,0,8.05,,S,Helsinki
+92,0,"Andreasson, Mr. Paul Edvin",male,20,0,0,7.8542,,S,Helsinki
+93,0,"Chaffee, Mr. Herbert Fuller",male,46,1,0,61.175,E31,S,Tampere
+94,0,"Dean, Mr. Bertram Frank",male,26,1,2,20.575,,S,Helsinki
+95,0,"Coxon, Mr. Daniel",male,59,0,0,7.25,,S,Helsinki
+96,0,"Shorney, Mr. Charles Joseph",male,NA,0,0,8.05,,S,Helsinki
+97,0,"Goldschmidt, Mr. George B",male,71,0,0,34.6542,A5,C,Tampere
+98,1,"Greenfield, Mr. William Bertram",male,23,0,1,63.3583,D10 D12,C,Tampere
+99,1,"Doling, Mrs. John T (Ada Julia Bone)",female,34,0,1,23,,S,Pori
+100,0,"Kantor, Mr. Sinai",male,34,1,0,26,,S,Pori
+101,0,"Petranec, Miss. Matilda",female,28,0,0,7.8958,,S,Helsinki
+102,0,"Petroff, Mr. Pastcho (""Pentcho"")",male,NA,0,0,7.8958,,S,Helsinki
+103,0,"White, Mr. Richard Frasar",male,21,0,1,77.2875,D26,S,Tampere
+104,0,"Johansson, Mr. Gustaf Joel",male,33,0,0,8.6542,,S,Helsinki
+105,0,"Gustafsson, Mr. Anders Vilhelm",male,37,2,0,7.925,,S,Helsinki
+106,0,"Mionoff, Mr. Stoytcho",male,28,0,0,7.8958,,S,Helsinki
+107,1,"Salkjelsvik, Miss. Anna Kristine",female,21,0,0,7.65,,S,Helsinki
+108,1,"Moss, Mr. Albert Johan",male,NA,0,0,7.775,,S,Helsinki
+109,0,"Rekic, Mr. Tido",male,38,0,0,7.8958,,S,Helsinki
+110,1,"Moran, Miss. Bertha",female,NA,1,0,24.15,,Q,Helsinki
+111,0,"Porter, Mr. Walter Chamberlain",male,47,0,0,52,C110,S,Tampere
+112,0,"Zabour, Miss. Hileni",female,14.5,1,0,14.4542,,C,Helsinki
+113,0,"Barton, Mr. David John",male,22,0,0,8.05,,S,Helsinki
+114,0,"Jussila, Miss. Katriina",female,20,1,0,9.825,,S,Helsinki
+115,0,"Attalah, Miss. Malake",female,17,0,0,14.4583,,C,Helsinki
+116,0,"Pekoniemi, Mr. Edvard",male,21,0,0,7.925,,S,Helsinki
+117,0,"Connors, Mr. Patrick",male,70.5,0,0,7.75,,Q,Helsinki
+118,0,"Turpin, Mr. William John Robert",male,29,1,0,21,,S,Pori
+119,0,"Baxter, Mr. Quigg Edmond",male,24,0,1,247.5208,B58 B60,C,Tampere
+120,0,"Andersson, Miss. Ellis Anna Maria",female,2,4,2,31.275,,S,Helsinki
+121,0,"Hickman, Mr. Stanley George",male,21,2,0,73.5,,S,Pori
+122,0,"Moore, Mr. Leonard Charles",male,NA,0,0,8.05,,S,Helsinki
+123,0,"Nasser, Mr. Nicholas",male,32.5,1,0,30.0708,,C,Pori
+124,1,"Webber, Miss. Susan",female,32.5,0,0,13,E101,S,Pori
+125,0,"White, Mr. Percival Wayland",male,54,0,1,77.2875,D26,S,Tampere
+126,1,"Nicola-Yarred, Master. Elias",male,12,1,0,11.2417,,C,Helsinki
+127,0,"McMahon, Mr. Martin",male,NA,0,0,7.75,,Q,Helsinki
+128,1,"Madsen, Mr. Fridtjof Arne",male,24,0,0,7.1417,,S,Helsinki
+129,1,"Peter, Miss. Anna",female,NA,1,1,22.3583,F E69,C,Helsinki
+130,0,"Ekstrom, Mr. Johan",male,45,0,0,6.975,,S,Helsinki
+131,0,"Drazenoic, Mr. Jozef",male,33,0,0,7.8958,,C,Helsinki
+132,0,"Coelho, Mr. Domingos Fernandeo",male,20,0,0,7.05,,S,Helsinki
+133,0,"Robins, Mrs. Alexander A (Grace Charity Laury)",female,47,1,0,14.5,,S,Helsinki
+134,1,"Weisz, Mrs. Leopold (Mathilde Francoise Pede)",female,29,1,0,26,,S,Pori
+135,0,"Sobey, Mr. Samuel James Hayden",male,25,0,0,13,,S,Pori
+136,0,"Richard, Mr. Emile",male,23,0,0,15.0458,,C,Pori
+137,1,"Newsom, Miss. Helen Monypeny",female,19,0,2,26.2833,D47,S,Tampere
+138,0,"Futrelle, Mr. Jacques Heath",male,37,1,0,53.1,C123,S,Tampere
+139,0,"Osen, Mr. Olaf Elon",male,16,0,0,9.2167,,S,Helsinki
+140,0,"Giglio, Mr. Victor",male,24,0,0,79.2,B86,C,Tampere
+141,0,"Boulos, Mrs. Joseph (Sultana)",female,NA,0,2,15.2458,,C,Helsinki
+142,1,"Nysten, Miss. Anna Sofia",female,22,0,0,7.75,,S,Helsinki
+143,1,"Hakkarainen, Mrs. Pekka Pietari (Elin Matilda Dolck)",female,24,1,0,15.85,,S,Helsinki
+144,0,"Burke, Mr. Jeremiah",male,19,0,0,6.75,,Q,Helsinki
+145,0,"Andrew, Mr. Edgardo Samuel",male,18,0,0,11.5,,S,Pori
+146,0,"Nicholls, Mr. Joseph Charles",male,19,1,1,36.75,,S,Pori
+147,1,"Andersson, Mr. August Edvard (""Wennerstrom"")",male,27,0,0,7.7958,,S,Helsinki
+148,0,"Ford, Miss. Robina Maggie ""Ruby""",female,9,2,2,34.375,,S,Helsinki
+149,0,"Navratil, Mr. Michel (""Louis M Hoffman"")",male,36.5,0,2,26,F2,S,Pori
+150,0,"Byles, Rev. Thomas Roussel Davids",male,42,0,0,13,,S,Pori
+151,0,"Bateman, Rev. Robert James",male,51,0,0,12.525,,S,Pori
+152,1,"Pears, Mrs. Thomas (Edith Wearne)",female,22,1,0,66.6,C2,S,Tampere
+153,0,"Meo, Mr. Alfonzo",male,55.5,0,0,8.05,,S,Helsinki
+154,0,"van Billiard, Mr. Austin Blyler",male,40.5,0,2,14.5,,S,Helsinki
+155,0,"Olsen, Mr. Ole Martin",male,NA,0,0,7.3125,,S,Helsinki
+156,0,"Williams, Mr. Charles Duane",male,51,0,1,61.3792,,C,Tampere
+157,1,"Gilnagh, Miss. Katherine ""Katie""",female,16,0,0,7.7333,,Q,Helsinki
+158,0,"Corn, Mr. Harry",male,30,0,0,8.05,,S,Helsinki
+159,0,"Smiljanic, Mr. Mile",male,NA,0,0,8.6625,,S,Helsinki
+160,0,"Sage, Master. Thomas Henry",male,NA,8,2,69.55,,S,Helsinki
+161,0,"Cribb, Mr. John Hatfield",male,44,0,1,16.1,,S,Helsinki
+162,1,"Watt, Mrs. James (Elizabeth ""Bessie"" Inglis Milne)",female,40,0,0,15.75,,S,Pori
+163,0,"Bengtsson, Mr. John Viktor",male,26,0,0,7.775,,S,Helsinki
+164,0,"Calic, Mr. Jovo",male,17,0,0,8.6625,,S,Helsinki
+165,0,"Panula, Master. Eino Viljami",male,1,4,1,39.6875,,S,Helsinki
+166,1,"Goldsmith, Master. Frank John William ""Frankie""",male,9,0,2,20.525,,S,Helsinki
+167,1,"Chibnall, Mrs. (Edith Martha Bowerman)",female,NA,0,1,55,E33,S,Tampere
+168,0,"Skoog, Mrs. William (Anna Bernhardina Karlsson)",female,45,1,4,27.9,,S,Helsinki
+169,0,"Baumann, Mr. John D",male,NA,0,0,25.925,,S,Tampere
+170,0,"Ling, Mr. Lee",male,28,0,0,56.4958,,S,Helsinki
+171,0,"Van der hoef, Mr. Wyckoff",male,61,0,0,33.5,B19,S,Tampere
+172,0,"Rice, Master. Arthur",male,4,4,1,29.125,,Q,Helsinki
+173,1,"Johnson, Miss. Eleanor Ileen",female,1,1,1,11.1333,,S,Helsinki
+174,0,"Sivola, Mr. Antti Wilhelm",male,21,0,0,7.925,,S,Helsinki
+175,0,"Smith, Mr. James Clinch",male,56,0,0,30.6958,A7,C,Tampere
+176,0,"Klasen, Mr. Klas Albin",male,18,1,1,7.8542,,S,Helsinki
+177,0,"Lefebre, Master. Henry Forbes",male,NA,3,1,25.4667,,S,Helsinki
+178,0,"Isham, Miss. Ann Elizabeth",female,50,0,0,28.7125,C49,C,Tampere
+179,0,"Hale, Mr. Reginald",male,30,0,0,13,,S,Pori
+180,0,"Leonard, Mr. Lionel",male,36,0,0,0,,S,Helsinki
+181,0,"Sage, Miss. Constance Gladys",female,NA,8,2,69.55,,S,Helsinki
+182,0,"Pernot, Mr. Rene",male,NA,0,0,15.05,,C,Pori
+183,0,"Asplund, Master. Clarence Gustaf Hugo",male,9,4,2,31.3875,,S,Helsinki
+184,1,"Becker, Master. Richard F",male,1,2,1,39,F4,S,Pori
+185,1,"Kink-Heilmann, Miss. Luise Gretchen",female,4,0,2,22.025,,S,Helsinki
+186,0,"Rood, Mr. Hugh Roscoe",male,NA,0,0,50,A32,S,Tampere
+187,1,"O'Brien, Mrs. Thomas (Johanna ""Hannah"" Godfrey)",female,NA,1,0,15.5,,Q,Helsinki
+188,1,"Romaine, Mr. Charles Hallace (""Mr C Rolmane"")",male,45,0,0,26.55,,S,Tampere
+189,0,"Bourke, Mr. John",male,40,1,1,15.5,,Q,Helsinki
+190,0,"Turcin, Mr. Stjepan",male,36,0,0,7.8958,,S,Helsinki
+191,1,"Pinsky, Mrs. (Rosa)",female,32,0,0,13,,S,Pori
+192,0,"Carbines, Mr. William",male,19,0,0,13,,S,Pori
+193,1,"Andersen-Jensen, Miss. Carla Christine Nielsine",female,19,1,0,7.8542,,S,Helsinki
+194,1,"Navratil, Master. Michel M",male,3,1,1,26,F2,S,Pori
+195,1,"Brown, Mrs. James Joseph (Margaret Tobin)",female,44,0,0,27.7208,B4,C,Tampere
+196,1,"Lurette, Miss. Elise",female,58,0,0,146.5208,B80,C,Tampere
+197,0,"Mernagh, Mr. Robert",male,NA,0,0,7.75,,Q,Helsinki
+198,0,"Olsen, Mr. Karl Siegwart Andreas",male,42,0,1,8.4042,,S,Helsinki
+199,1,"Madigan, Miss. Margaret ""Maggie""",female,NA,0,0,7.75,,Q,Helsinki
+200,0,"Yrois, Miss. Henriette (""Mrs Harbeck"")",female,24,0,0,13,,S,Pori
+201,0,"Vande Walle, Mr. Nestor Cyriel",male,28,0,0,9.5,,S,Helsinki
+202,0,"Sage, Mr. Frederick",male,NA,8,2,69.55,,S,Helsinki
+203,0,"Johanson, Mr. Jakob Alfred",male,34,0,0,6.4958,,S,Helsinki
+204,0,"Youseff, Mr. Gerious",male,45.5,0,0,7.225,,C,Helsinki
+205,1,"Cohen, Mr. Gurshon ""Gus""",male,18,0,0,8.05,,S,Helsinki
+206,0,"Strom, Miss. Telma Matilda",female,2,0,1,10.4625,G6,S,Helsinki
+207,0,"Backstrom, Mr. Karl Alfred",male,32,1,0,15.85,,S,Helsinki
+208,1,"Albimona, Mr. Nassef Cassem",male,26,0,0,18.7875,,C,Helsinki
+209,1,"Carr, Miss. Helen ""Ellen""",female,16,0,0,7.75,,Q,Helsinki
+210,1,"Blank, Mr. Henry",male,40,0,0,31,A31,C,Tampere
+211,0,"Ali, Mr. Ahmed",male,24,0,0,7.05,,S,Helsinki
+212,1,"Cameron, Miss. Clear Annie",female,35,0,0,21,,S,Pori
+213,0,"Perkin, Mr. John Henry",male,22,0,0,7.25,,S,Helsinki
+214,0,"Givard, Mr. Hans Kristensen",male,30,0,0,13,,S,Pori
+215,0,"Kiernan, Mr. Philip",male,NA,1,0,7.75,,Q,Helsinki
+216,1,"Newell, Miss. Madeleine",female,31,1,0,113.275,D36,C,Tampere
+217,1,"Honkanen, Miss. Eliina",female,27,0,0,7.925,,S,Helsinki
+218,0,"Jacobsohn, Mr. Sidney Samuel",male,42,1,0,27,,S,Pori
+219,1,"Bazzani, Miss. Albina",female,32,0,0,76.2917,D15,C,Tampere
+220,0,"Harris, Mr. Walter",male,30,0,0,10.5,,S,Pori
+221,1,"Sunderland, Mr. Victor Francis",male,16,0,0,8.05,,S,Helsinki
+222,0,"Bracken, Mr. James H",male,27,0,0,13,,S,Pori
+223,0,"Green, Mr. George Henry",male,51,0,0,8.05,,S,Helsinki
+224,0,"Nenkoff, Mr. Christo",male,NA,0,0,7.8958,,S,Helsinki
+225,1,"Hoyt, Mr. Frederick Maxfield",male,38,1,0,90,C93,S,Tampere
+226,0,"Berglund, Mr. Karl Ivar Sven",male,22,0,0,9.35,,S,Helsinki
+227,1,"Mellors, Mr. William John",male,19,0,0,10.5,,S,Pori
+228,0,"Lovell, Mr. John Hall (""Henry"")",male,20.5,0,0,7.25,,S,Helsinki
+229,0,"Fahlstrom, Mr. Arne Jonas",male,18,0,0,13,,S,Pori
+230,0,"Lefebre, Miss. Mathilde",female,NA,3,1,25.4667,,S,Helsinki
+231,1,"Harris, Mrs. Henry Birkhardt (Irene Wallach)",female,35,1,0,83.475,C83,S,Tampere
+232,0,"Larsson, Mr. Bengt Edvin",male,29,0,0,7.775,,S,Helsinki
+233,0,"Sjostedt, Mr. Ernst Adolf",male,59,0,0,13.5,,S,Pori
+234,1,"Asplund, Miss. Lillian Gertrud",female,5,4,2,31.3875,,S,Helsinki
+235,0,"Leyson, Mr. Robert William Norman",male,24,0,0,10.5,,S,Pori
+236,0,"Harknett, Miss. Alice Phoebe",female,NA,0,0,7.55,,S,Helsinki
+237,0,"Hold, Mr. Stephen",male,44,1,0,26,,S,Pori
+238,1,"Collyer, Miss. Marjorie ""Lottie""",female,8,0,2,26.25,,S,Pori
+239,0,"Pengelly, Mr. Frederick William",male,19,0,0,10.5,,S,Pori
+240,0,"Hunt, Mr. George Henry",male,33,0,0,12.275,,S,Pori
+241,0,"Zabour, Miss. Thamine",female,NA,1,0,14.4542,,C,Helsinki
+242,1,"Murphy, Miss. Katherine ""Kate""",female,NA,1,0,15.5,,Q,Helsinki
+243,0,"Coleridge, Mr. Reginald Charles",male,29,0,0,10.5,,S,Pori
+244,0,"Maenpaa, Mr. Matti Alexanteri",male,22,0,0,7.125,,S,Helsinki
+245,0,"Attalah, Mr. Sleiman",male,30,0,0,7.225,,C,Helsinki
+246,0,"Minahan, Dr. William Edward",male,44,2,0,90,C78,Q,Tampere
+247,0,"Lindahl, Miss. Agda Thorilda Viktoria",female,25,0,0,7.775,,S,Helsinki
+248,1,"Hamalainen, Mrs. William (Anna)",female,24,0,2,14.5,,S,Pori
+249,1,"Beckwith, Mr. Richard Leonard",male,37,1,1,52.5542,D35,S,Tampere
+250,0,"Carter, Rev. Ernest Courtenay",male,54,1,0,26,,S,Pori
+251,0,"Reed, Mr. James George",male,NA,0,0,7.25,,S,Helsinki
+252,0,"Strom, Mrs. Wilhelm (Elna Matilda Persson)",female,29,1,1,10.4625,G6,S,Helsinki
+253,0,"Stead, Mr. William Thomas",male,62,0,0,26.55,C87,S,Tampere
+254,0,"Lobb, Mr. William Arthur",male,30,1,0,16.1,,S,Helsinki
+255,0,"Rosblom, Mrs. Viktor (Helena Wilhelmina)",female,41,0,2,20.2125,,S,Helsinki
+256,1,"Touma, Mrs. Darwis (Hanne Youssef Razi)",female,29,0,2,15.2458,,C,Helsinki
+257,1,"Thorne, Mrs. Gertrude Maybelle",female,NA,0,0,79.2,,C,Tampere
+258,1,"Cherry, Miss. Gladys",female,30,0,0,86.5,B77,S,Tampere
+259,1,"Ward, Miss. Anna",female,35,0,0,512.3292,,C,Tampere
+260,1,"Parrish, Mrs. (Lutie Davis)",female,50,0,1,26,,S,Pori
+261,0,"Smith, Mr. Thomas",male,NA,0,0,7.75,,Q,Helsinki
+262,1,"Asplund, Master. Edvin Rojj Felix",male,3,4,2,31.3875,,S,Helsinki
+263,0,"Taussig, Mr. Emil",male,52,1,1,79.65,E67,S,Tampere
+264,0,"Harrison, Mr. William",male,40,0,0,0,B94,S,Tampere
+265,0,"Henry, Miss. Delia",female,NA,0,0,7.75,,Q,Helsinki
+266,0,"Reeves, Mr. David",male,36,0,0,10.5,,S,Pori
+267,0,"Panula, Mr. Ernesti Arvid",male,16,4,1,39.6875,,S,Helsinki
+268,1,"Persson, Mr. Ernst Ulrik",male,25,1,0,7.775,,S,Helsinki
+269,1,"Graham, Mrs. William Thompson (Edith Junkins)",female,58,0,1,153.4625,C125,S,Tampere
+270,1,"Bissette, Miss. Amelia",female,35,0,0,135.6333,C99,S,Tampere
+271,0,"Cairns, Mr. Alexander",male,NA,0,0,31,,S,Tampere
+272,1,"Tornquist, Mr. William Henry",male,25,0,0,0,,S,Helsinki
+273,1,"Mellinger, Mrs. (Elizabeth Anne Maidment)",female,41,0,1,19.5,,S,Pori
+274,0,"Natsch, Mr. Charles H",male,37,0,1,29.7,C118,C,Tampere
+275,1,"Healy, Miss. Hanora ""Nora""",female,NA,0,0,7.75,,Q,Helsinki
+276,1,"Andrews, Miss. Kornelia Theodosia",female,63,1,0,77.9583,D7,S,Tampere
+277,0,"Lindblom, Miss. Augusta Charlotta",female,45,0,0,7.75,,S,Helsinki
+278,0,"Parkes, Mr. Francis ""Frank""",male,NA,0,0,0,,S,Pori
+279,0,"Rice, Master. Eric",male,7,4,1,29.125,,Q,Helsinki
+280,1,"Abbott, Mrs. Stanton (Rosa Hunt)",female,35,1,1,20.25,,S,Helsinki
+281,0,"Duane, Mr. Frank",male,65,0,0,7.75,,Q,Helsinki
+282,0,"Olsson, Mr. Nils Johan Goransson",male,28,0,0,7.8542,,S,Helsinki
+283,0,"de Pelsmaeker, Mr. Alfons",male,16,0,0,9.5,,S,Helsinki
+284,1,"Dorking, Mr. Edward Arthur",male,19,0,0,8.05,,S,Helsinki
+285,0,"Smith, Mr. Richard William",male,NA,0,0,26,A19,S,Tampere
+286,0,"Stankovic, Mr. Ivan",male,33,0,0,8.6625,,C,Helsinki
+287,1,"de Mulder, Mr. Theodore",male,30,0,0,9.5,,S,Helsinki
+288,0,"Naidenoff, Mr. Penko",male,22,0,0,7.8958,,S,Helsinki
+289,1,"Hosono, Mr. Masabumi",male,42,0,0,13,,S,Pori
+290,1,"Connolly, Miss. Kate",female,22,0,0,7.75,,Q,Helsinki
+291,1,"Barber, Miss. Ellen ""Nellie""",female,26,0,0,78.85,,S,Tampere
+292,1,"Bishop, Mrs. Dickinson H (Helen Walton)",female,19,1,0,91.0792,B49,C,Tampere
+293,0,"Levy, Mr. Rene Jacques",male,36,0,0,12.875,D,C,Pori
+294,0,"Haas, Miss. Aloisia",female,24,0,0,8.85,,S,Helsinki
+295,0,"Mineff, Mr. Ivan",male,24,0,0,7.8958,,S,Helsinki
+296,0,"Lewy, Mr. Ervin G",male,NA,0,0,27.7208,,C,Tampere
+297,0,"Hanna, Mr. Mansour",male,23.5,0,0,7.2292,,C,Helsinki
+298,0,"Allison, Miss. Helen Loraine",female,2,1,2,151.55,C22 C26,S,Tampere
+299,1,"Saalfeld, Mr. Adolphe",male,NA,0,0,30.5,C106,S,Tampere
+300,1,"Baxter, Mrs. James (Helene DeLaudeniere Chaput)",female,50,0,1,247.5208,B58 B60,C,Tampere
+301,1,"Kelly, Miss. Anna Katherine ""Annie Kate""",female,NA,0,0,7.75,,Q,Helsinki
+302,1,"McCoy, Mr. Bernard",male,NA,2,0,23.25,,Q,Helsinki
+303,0,"Johnson, Mr. William Cahoone Jr",male,19,0,0,0,,S,Helsinki
+304,1,"Keane, Miss. Nora A",female,NA,0,0,12.35,E101,Q,Pori
+305,0,"Williams, Mr. Howard Hugh ""Harry""",male,NA,0,0,8.05,,S,Helsinki
+306,1,"Allison, Master. Hudson Trevor",male,0.92,1,2,151.55,C22 C26,S,Tampere
+307,1,"Fleming, Miss. Margaret",female,NA,0,0,110.8833,,C,Tampere
+308,1,"Penasco y Castellana, Mrs. Victor de Satode (Maria Josefa Perez de Soto y Vallejo)",female,17,1,0,108.9,C65,C,Tampere
+309,0,"Abelson, Mr. Samuel",male,30,1,0,24,,C,Pori
+310,1,"Francatelli, Miss. Laura Mabel",female,30,0,0,56.9292,E36,C,Tampere
+311,1,"Hays, Miss. Margaret Bechstein",female,24,0,0,83.1583,C54,C,Tampere
+312,1,"Ryerson, Miss. Emily Borie",female,18,2,2,262.375,B57 B59 B63 B66,C,Tampere
+313,0,"Lahtinen, Mrs. William (Anna Sylfven)",female,26,1,1,26,,S,Pori
+314,0,"Hendekovic, Mr. Ignjac",male,28,0,0,7.8958,,S,Helsinki
+315,0,"Hart, Mr. Benjamin",male,43,1,1,26.25,,S,Pori
+316,1,"Nilsson, Miss. Helmina Josefina",female,26,0,0,7.8542,,S,Helsinki
+317,1,"Kantor, Mrs. Sinai (Miriam Sternin)",female,24,1,0,26,,S,Pori
+318,0,"Moraweck, Dr. Ernest",male,54,0,0,14,,S,Pori
+319,1,"Wick, Miss. Mary Natalie",female,31,0,2,164.8667,C7,S,Tampere
+320,1,"Spedden, Mrs. Frederic Oakley (Margaretta Corning Stone)",female,40,1,1,134.5,E34,C,Tampere
+321,0,"Dennis, Mr. Samuel",male,22,0,0,7.25,,S,Helsinki
+322,0,"Danoff, Mr. Yoto",male,27,0,0,7.8958,,S,Helsinki
+323,1,"Slayter, Miss. Hilda Mary",female,30,0,0,12.35,,Q,Pori
+324,1,"Caldwell, Mrs. Albert Francis (Sylvia Mae Harbaugh)",female,22,1,1,29,,S,Pori
+325,0,"Sage, Mr. George John Jr",male,NA,8,2,69.55,,S,Helsinki
+326,1,"Young, Miss. Marie Grice",female,36,0,0,135.6333,C32,C,Tampere
+327,0,"Nysveen, Mr. Johan Hansen",male,61,0,0,6.2375,,S,Helsinki
+328,1,"Ball, Mrs. (Ada E Hall)",female,36,0,0,13,D,S,Pori
+329,1,"Goldsmith, Mrs. Frank John (Emily Alice Brown)",female,31,1,1,20.525,,S,Helsinki
+330,1,"Hippach, Miss. Jean Gertrude",female,16,0,1,57.9792,B18,C,Tampere
+331,1,"McCoy, Miss. Agnes",female,NA,2,0,23.25,,Q,Helsinki
+332,0,"Partner, Mr. Austen",male,45.5,0,0,28.5,C124,S,Tampere
+333,0,"Graham, Mr. George Edward",male,38,0,1,153.4625,C91,S,Tampere
+334,0,"Vander Planke, Mr. Leo Edmondus",male,16,2,0,18,,S,Helsinki
+335,1,"Frauenthal, Mrs. Henry William (Clara Heinsheimer)",female,NA,1,0,133.65,,S,Tampere
+336,0,"Denkoff, Mr. Mitto",male,NA,0,0,7.8958,,S,Helsinki
+337,0,"Pears, Mr. Thomas Clinton",male,29,1,0,66.6,C2,S,Tampere
+338,1,"Burns, Miss. Elizabeth Margaret",female,41,0,0,134.5,E40,C,Tampere
+339,1,"Dahl, Mr. Karl Edwart",male,45,0,0,8.05,,S,Helsinki
+340,0,"Blackwell, Mr. Stephen Weart",male,45,0,0,35.5,T,S,Tampere
+341,1,"Navratil, Master. Edmond Roger",male,2,1,1,26,F2,S,Pori
+342,1,"Fortune, Miss. Alice Elizabeth",female,24,3,2,263,C23 C25 C27,S,Tampere
+343,0,"Collander, Mr. Erik Gustaf",male,28,0,0,13,,S,Pori
+344,0,"Sedgwick, Mr. Charles Frederick Waddington",male,25,0,0,13,,S,Pori
+345,0,"Fox, Mr. Stanley Hubert",male,36,0,0,13,,S,Pori
+346,1,"Brown, Miss. Amelia ""Mildred""",female,24,0,0,13,F33,S,Pori
+347,1,"Smith, Miss. Marion Elsie",female,40,0,0,13,,S,Pori
+348,1,"Davison, Mrs. Thomas Henry (Mary E Finck)",female,NA,1,0,16.1,,S,Helsinki
+349,1,"Coutts, Master. William Loch ""William""",male,3,1,1,15.9,,S,Helsinki
+350,0,"Dimic, Mr. Jovan",male,42,0,0,8.6625,,S,Helsinki
+351,0,"Odahl, Mr. Nils Martin",male,23,0,0,9.225,,S,Helsinki
+352,0,"Williams-Lambert, Mr. Fletcher Fellows",male,NA,0,0,35,C128,S,Tampere
+353,0,"Elias, Mr. Tannous",male,15,1,1,7.2292,,C,Helsinki
+354,0,"Arnold-Franchi, Mr. Josef",male,25,1,0,17.8,,S,Helsinki
+355,0,"Yousif, Mr. Wazli",male,NA,0,0,7.225,,C,Helsinki
+356,0,"Vanden Steen, Mr. Leo Peter",male,28,0,0,9.5,,S,Helsinki
+357,1,"Bowerman, Miss. Elsie Edith",female,22,0,1,55,E33,S,Tampere
+358,0,"Funk, Miss. Annie Clemmer",female,38,0,0,13,,S,Pori
+359,1,"McGovern, Miss. Mary",female,NA,0,0,7.8792,,Q,Helsinki
+360,1,"Mockler, Miss. Helen Mary ""Ellie""",female,NA,0,0,7.8792,,Q,Helsinki
+361,0,"Skoog, Mr. Wilhelm",male,40,1,4,27.9,,S,Helsinki
+362,0,"del Carlo, Mr. Sebastiano",male,29,1,0,27.7208,,C,Pori
+363,0,"Barbara, Mrs. (Catherine David)",female,45,0,1,14.4542,,C,Helsinki
+364,0,"Asim, Mr. Adola",male,35,0,0,7.05,,S,Helsinki
+365,0,"O'Brien, Mr. Thomas",male,NA,1,0,15.5,,Q,Helsinki
+366,0,"Adahl, Mr. Mauritz Nils Martin",male,30,0,0,7.25,,S,Helsinki
+367,1,"Warren, Mrs. Frank Manley (Anna Sophia Atkinson)",female,60,1,0,75.25,D37,C,Tampere
+368,1,"Moussa, Mrs. (Mantoura Boulos)",female,NA,0,0,7.2292,,C,Helsinki
+369,1,"Jermyn, Miss. Annie",female,NA,0,0,7.75,,Q,Helsinki
+370,1,"Aubart, Mme. Leontine Pauline",female,24,0,0,69.3,B35,C,Tampere
+371,1,"Harder, Mr. George Achilles",male,25,1,0,55.4417,E50,C,Tampere
+372,0,"Wiklund, Mr. Jakob Alfred",male,18,1,0,6.4958,,S,Helsinki
+373,0,"Beavan, Mr. William Thomas",male,19,0,0,8.05,,S,Helsinki
+374,0,"Ringhini, Mr. Sante",male,22,0,0,135.6333,,C,Tampere
+375,0,"Palsson, Miss. Stina Viola",female,3,3,1,21.075,,S,Helsinki
+376,1,"Meyer, Mrs. Edgar Joseph (Leila Saks)",female,NA,1,0,82.1708,,C,Tampere
+377,1,"Landergren, Miss. Aurora Adelia",female,22,0,0,7.25,,S,Helsinki
+378,0,"Widener, Mr. Harry Elkins",male,27,0,2,211.5,C82,C,Tampere
+379,0,"Betros, Mr. Tannous",male,20,0,0,4.0125,,C,Helsinki
+380,0,"Gustafsson, Mr. Karl Gideon",male,19,0,0,7.775,,S,Helsinki
+381,1,"Bidois, Miss. Rosalie",female,42,0,0,227.525,,C,Tampere
+382,1,"Nakid, Miss. Maria (""Mary"")",female,1,0,2,15.7417,,C,Helsinki
+383,0,"Tikkanen, Mr. Juho",male,32,0,0,7.925,,S,Helsinki
+384,1,"Holverson, Mrs. Alexander Oskar (Mary Aline Towner)",female,35,1,0,52,,S,Tampere
+385,0,"Plotcharsky, Mr. Vasil",male,NA,0,0,7.8958,,S,Helsinki
+386,0,"Davies, Mr. Charles Henry",male,18,0,0,73.5,,S,Pori
+387,0,"Goodwin, Master. Sidney Leonard",male,1,5,2,46.9,,S,Helsinki
+388,1,"Buss, Miss. Kate",female,36,0,0,13,,S,Pori
+389,0,"Sadlier, Mr. Matthew",male,NA,0,0,7.7292,,Q,Helsinki
+390,1,"Lehmann, Miss. Bertha",female,17,0,0,12,,C,Pori
+391,1,"Carter, Mr. William Ernest",male,36,1,2,120,B96 B98,S,Tampere
+392,1,"Jansson, Mr. Carl Olof",male,21,0,0,7.7958,,S,Helsinki
+393,0,"Gustafsson, Mr. Johan Birger",male,28,2,0,7.925,,S,Helsinki
+394,1,"Newell, Miss. Marjorie",female,23,1,0,113.275,D36,C,Tampere
+395,1,"Sandstrom, Mrs. Hjalmar (Agnes Charlotta Bengtsson)",female,24,0,2,16.7,G6,S,Helsinki
+396,0,"Johansson, Mr. Erik",male,22,0,0,7.7958,,S,Helsinki
+397,0,"Olsson, Miss. Elina",female,31,0,0,7.8542,,S,Helsinki
+398,0,"McKane, Mr. Peter David",male,46,0,0,26,,S,Pori
+399,0,"Pain, Dr. Alfred",male,23,0,0,10.5,,S,Pori
+400,1,"Trout, Mrs. William H (Jessie L)",female,28,0,0,12.65,,S,Pori
+401,1,"Niskanen, Mr. Juha",male,39,0,0,7.925,,S,Helsinki
+402,0,"Adams, Mr. John",male,26,0,0,8.05,,S,Helsinki
+403,0,"Jussila, Miss. Mari Aina",female,21,1,0,9.825,,S,Helsinki
+404,0,"Hakkarainen, Mr. Pekka Pietari",male,28,1,0,15.85,,S,Helsinki
+405,0,"Oreskovic, Miss. Marija",female,20,0,0,8.6625,,S,Helsinki
+406,0,"Gale, Mr. Shadrach",male,34,1,0,21,,S,Pori
+407,0,"Widegren, Mr. Carl/Charles Peter",male,51,0,0,7.75,,S,Helsinki
+408,1,"Richards, Master. William Rowe",male,3,1,1,18.75,,S,Pori
+409,0,"Birkeland, Mr. Hans Martin Monsen",male,21,0,0,7.775,,S,Helsinki
+410,0,"Lefebre, Miss. Ida",female,NA,3,1,25.4667,,S,Helsinki
+411,0,"Sdycoff, Mr. Todor",male,NA,0,0,7.8958,,S,Helsinki
+412,0,"Hart, Mr. Henry",male,NA,0,0,6.8583,,Q,Helsinki
+413,1,"Minahan, Miss. Daisy E",female,33,1,0,90,C78,Q,Tampere
+414,0,"Cunningham, Mr. Alfred Fleming",male,NA,0,0,0,,S,Pori
+415,1,"Sundman, Mr. Johan Julian",male,44,0,0,7.925,,S,Helsinki
+416,0,"Meek, Mrs. Thomas (Annie Louise Rowley)",female,NA,0,0,8.05,,S,Helsinki
+417,1,"Drew, Mrs. James Vivian (Lulu Thorne Christian)",female,34,1,1,32.5,,S,Pori
+418,1,"Silven, Miss. Lyyli Karoliina",female,18,0,2,13,,S,Pori
+419,0,"Matthews, Mr. William John",male,30,0,0,13,,S,Pori
+420,0,"Van Impe, Miss. Catharina",female,10,0,2,24.15,,S,Helsinki
+421,0,"Gheorgheff, Mr. Stanio",male,NA,0,0,7.8958,,C,Helsinki
+422,0,"Charters, Mr. David",male,21,0,0,7.7333,,Q,Helsinki
+423,0,"Zimmerman, Mr. Leo",male,29,0,0,7.875,,S,Helsinki
+424,0,"Danbom, Mrs. Ernst Gilbert (Anna Sigrid Maria Brogren)",female,28,1,1,14.4,,S,Helsinki
+425,0,"Rosblom, Mr. Viktor Richard",male,18,1,1,20.2125,,S,Helsinki
+426,0,"Wiseman, Mr. Phillippe",male,NA,0,0,7.25,,S,Helsinki
+427,1,"Clarke, Mrs. Charles V (Ada Maria Winfield)",female,28,1,0,26,,S,Pori
+428,1,"Phillips, Miss. Kate Florence (""Mrs Kate Louise Phillips Marshall"")",female,19,0,0,26,,S,Pori
+429,0,"Flynn, Mr. James",male,NA,0,0,7.75,,Q,Helsinki
+430,1,"Pickard, Mr. Berk (Berk Trembisky)",male,32,0,0,8.05,E10,S,Helsinki
+431,1,"Bjornstrom-Steffansson, Mr. Mauritz Hakan",male,28,0,0,26.55,C52,S,Tampere
+432,1,"Thorneycroft, Mrs. Percival (Florence Kate White)",female,NA,1,0,16.1,,S,Helsinki
+433,1,"Louch, Mrs. Charles Alexander (Alice Adelaide Slow)",female,42,1,0,26,,S,Pori
+434,0,"Kallio, Mr. Nikolai Erland",male,17,0,0,7.125,,S,Helsinki
+435,0,"Silvey, Mr. William Baird",male,50,1,0,55.9,E44,S,Tampere
+436,1,"Carter, Miss. Lucile Polk",female,14,1,2,120,B96 B98,S,Tampere
+437,0,"Ford, Miss. Doolina Margaret ""Daisy""",female,21,2,2,34.375,,S,Helsinki
+438,1,"Richards, Mrs. Sidney (Emily Hocking)",female,24,2,3,18.75,,S,Pori
+439,0,"Fortune, Mr. Mark",male,64,1,4,263,C23 C25 C27,S,Tampere
+440,0,"Kvillner, Mr. Johan Henrik Johannesson",male,31,0,0,10.5,,S,Pori
+441,1,"Hart, Mrs. Benjamin (Esther Ada Bloomfield)",female,45,1,1,26.25,,S,Pori
+442,0,"Hampe, Mr. Leon",male,20,0,0,9.5,,S,Helsinki
+443,0,"Petterson, Mr. Johan Emil",male,25,1,0,7.775,,S,Helsinki
+444,1,"Reynaldo, Ms. Encarnacion",female,28,0,0,13,,S,Pori
+445,1,"Johannesen-Bratthammer, Mr. Bernt",male,NA,0,0,8.1125,,S,Helsinki
+446,1,"Dodge, Master. Washington",male,4,0,2,81.8583,A34,S,Tampere
+447,1,"Mellinger, Miss. Madeleine Violet",female,13,0,1,19.5,,S,Pori
+448,1,"Seward, Mr. Frederic Kimber",male,34,0,0,26.55,,S,Tampere
+449,1,"Baclini, Miss. Marie Catherine",female,5,2,1,19.2583,,C,Helsinki
+450,1,"Peuchen, Major. Arthur Godfrey",male,52,0,0,30.5,C104,S,Tampere
+451,0,"West, Mr. Edwy Arthur",male,36,1,2,27.75,,S,Pori
+452,0,"Hagland, Mr. Ingvald Olai Olsen",male,NA,1,0,19.9667,,S,Helsinki
+453,0,"Foreman, Mr. Benjamin Laventall",male,30,0,0,27.75,C111,C,Tampere
+454,1,"Goldenberg, Mr. Samuel L",male,49,1,0,89.1042,C92,C,Tampere
+455,0,"Peduzzi, Mr. Joseph",male,NA,0,0,8.05,,S,Helsinki
+456,1,"Jalsevac, Mr. Ivan",male,29,0,0,7.8958,,C,Helsinki
+457,0,"Millet, Mr. Francis Davis",male,65,0,0,26.55,E38,S,Tampere
+458,1,"Kenyon, Mrs. Frederick R (Marion)",female,NA,1,0,51.8625,D21,S,Tampere
+459,1,"Toomey, Miss. Ellen",female,50,0,0,10.5,,S,Pori
+460,0,"O'Connor, Mr. Maurice",male,NA,0,0,7.75,,Q,Helsinki
+461,1,"Anderson, Mr. Harry",male,48,0,0,26.55,E12,S,Tampere
+462,0,"Morley, Mr. William",male,34,0,0,8.05,,S,Helsinki
+463,0,"Gee, Mr. Arthur H",male,47,0,0,38.5,E63,S,Tampere
+464,0,"Milling, Mr. Jacob Christian",male,48,0,0,13,,S,Pori
+465,0,"Maisner, Mr. Simon",male,NA,0,0,8.05,,S,Helsinki
+466,0,"Goncalves, Mr. Manuel Estanslas",male,38,0,0,7.05,,S,Helsinki
+467,0,"Campbell, Mr. William",male,NA,0,0,0,,S,Pori
+468,0,"Smart, Mr. John Montgomery",male,56,0,0,26.55,,S,Tampere
+469,0,"Scanlan, Mr. James",male,NA,0,0,7.725,,Q,Helsinki
+470,1,"Baclini, Miss. Helene Barbara",female,0.75,2,1,19.2583,,C,Helsinki
+471,0,"Keefe, Mr. Arthur",male,NA,0,0,7.25,,S,Helsinki
+472,0,"Cacic, Mr. Luka",male,38,0,0,8.6625,,S,Helsinki
+473,1,"West, Mrs. Edwy Arthur (Ada Mary Worth)",female,33,1,2,27.75,,S,Pori
+474,1,"Jerwan, Mrs. Amin S (Marie Marthe Thuillard)",female,23,0,0,13.7917,D,C,Pori
+475,0,"Strandberg, Miss. Ida Sofia",female,22,0,0,9.8375,,S,Helsinki
+476,0,"Clifford, Mr. George Quincy",male,NA,0,0,52,A14,S,Tampere
+477,0,"Renouf, Mr. Peter Henry",male,34,1,0,21,,S,Pori
+478,0,"Braund, Mr. Lewis Richard",male,29,1,0,7.0458,,S,Helsinki
+479,0,"Karlsson, Mr. Nils August",male,22,0,0,7.5208,,S,Helsinki
+480,1,"Hirvonen, Miss. Hildur E",female,2,0,1,12.2875,,S,Helsinki
+481,0,"Goodwin, Master. Harold Victor",male,9,5,2,46.9,,S,Helsinki
+482,0,"Frost, Mr. Anthony Wood ""Archie""",male,NA,0,0,0,,S,Pori
+483,0,"Rouse, Mr. Richard Henry",male,50,0,0,8.05,,S,Helsinki
+484,1,"Turkula, Mrs. (Hedwig)",female,63,0,0,9.5875,,S,Helsinki
+485,1,"Bishop, Mr. Dickinson H",male,25,1,0,91.0792,B49,C,Tampere
+486,0,"Lefebre, Miss. Jeannie",female,NA,3,1,25.4667,,S,Helsinki
+487,1,"Hoyt, Mrs. Frederick Maxfield (Jane Anne Forby)",female,35,1,0,90,C93,S,Tampere
+488,0,"Kent, Mr. Edward Austin",male,58,0,0,29.7,B37,C,Tampere
+489,0,"Somerton, Mr. Francis William",male,30,0,0,8.05,,S,Helsinki
+490,1,"Coutts, Master. Eden Leslie ""Neville""",male,9,1,1,15.9,,S,Helsinki
+491,0,"Hagland, Mr. Konrad Mathias Reiersen",male,NA,1,0,19.9667,,S,Helsinki
+492,0,"Windelov, Mr. Einar",male,21,0,0,7.25,,S,Helsinki
+493,0,"Molson, Mr. Harry Markland",male,55,0,0,30.5,C30,S,Tampere
+494,0,"Artagaveytia, Mr. Ramon",male,71,0,0,49.5042,,C,Tampere
+495,0,"Stanley, Mr. Edward Roland",male,21,0,0,8.05,,S,Helsinki
+496,0,"Yousseff, Mr. Gerious",male,NA,0,0,14.4583,,C,Helsinki
+497,1,"Eustis, Miss. Elizabeth Mussey",female,54,1,0,78.2667,D20,C,Tampere
+498,0,"Shellard, Mr. Frederick William",male,NA,0,0,15.1,,S,Helsinki
+499,0,"Allison, Mrs. Hudson J C (Bessie Waldo Daniels)",female,25,1,2,151.55,C22 C26,S,Tampere
+500,0,"Svensson, Mr. Olof",male,24,0,0,7.7958,,S,Helsinki
+501,0,"Calic, Mr. Petar",male,17,0,0,8.6625,,S,Helsinki
+502,0,"Canavan, Miss. Mary",female,21,0,0,7.75,,Q,Helsinki
+503,0,"O'Sullivan, Miss. Bridget Mary",female,NA,0,0,7.6292,,Q,Helsinki
+504,0,"Laitinen, Miss. Kristina Sofia",female,37,0,0,9.5875,,S,Helsinki
+505,1,"Maioni, Miss. Roberta",female,16,0,0,86.5,B79,S,Tampere
+506,0,"Penasco y Castellana, Mr. Victor de Satode",male,18,1,0,108.9,C65,C,Tampere
+507,1,"Quick, Mrs. Frederick Charles (Jane Richards)",female,33,0,2,26,,S,Pori
+508,1,"Bradley, Mr. George (""George Arthur Brayton"")",male,NA,0,0,26.55,,S,Tampere
+509,0,"Olsen, Mr. Henry Margido",male,28,0,0,22.525,,S,Helsinki
+510,1,"Lang, Mr. Fang",male,26,0,0,56.4958,,S,Helsinki
+511,1,"Daly, Mr. Eugene Patrick",male,29,0,0,7.75,,Q,Helsinki
+512,0,"Webber, Mr. James",male,NA,0,0,8.05,,S,Helsinki
+513,1,"McGough, Mr. James Robert",male,36,0,0,26.2875,E25,S,Tampere
+514,1,"Rothschild, Mrs. Martin (Elizabeth L. Barrett)",female,54,1,0,59.4,,C,Tampere
+515,0,"Coleff, Mr. Satio",male,24,0,0,7.4958,,S,Helsinki
+516,0,"Walker, Mr. William Anderson",male,47,0,0,34.0208,D46,S,Tampere
+517,1,"Lemore, Mrs. (Amelia Milley)",female,34,0,0,10.5,F33,S,Pori
+518,0,"Ryan, Mr. Patrick",male,NA,0,0,24.15,,Q,Helsinki
+519,1,"Angle, Mrs. William A (Florence ""Mary"" Agnes Hughes)",female,36,1,0,26,,S,Pori
+520,0,"Pavlovic, Mr. Stefo",male,32,0,0,7.8958,,S,Helsinki
+521,1,"Perreault, Miss. Anne",female,30,0,0,93.5,B73,S,Tampere
+522,0,"Vovk, Mr. Janko",male,22,0,0,7.8958,,S,Helsinki
+523,0,"Lahoud, Mr. Sarkis",male,NA,0,0,7.225,,C,Helsinki
+524,1,"Hippach, Mrs. Louis Albert (Ida Sophia Fischer)",female,44,0,1,57.9792,B18,C,Tampere
+525,0,"Kassem, Mr. Fared",male,NA,0,0,7.2292,,C,Helsinki
+526,0,"Farrell, Mr. James",male,40.5,0,0,7.75,,Q,Helsinki
+527,1,"Ridsdale, Miss. Lucy",female,50,0,0,10.5,,S,Pori
+528,0,"Farthing, Mr. John",male,NA,0,0,221.7792,C95,S,Tampere
+529,0,"Salonen, Mr. Johan Werner",male,39,0,0,7.925,,S,Helsinki
+530,0,"Hocking, Mr. Richard George",male,23,2,1,11.5,,S,Pori
+531,1,"Quick, Miss. Phyllis May",female,2,1,1,26,,S,Pori
+532,0,"Toufik, Mr. Nakli",male,NA,0,0,7.2292,,C,Helsinki
+533,0,"Elias, Mr. Joseph Jr",male,17,1,1,7.2292,,C,Helsinki
+534,1,"Peter, Mrs. Catherine (Catherine Rizk)",female,NA,0,2,22.3583,,C,Helsinki
+535,0,"Cacic, Miss. Marija",female,30,0,0,8.6625,,S,Helsinki
+536,1,"Hart, Miss. Eva Miriam",female,7,0,2,26.25,,S,Pori
+537,0,"Butt, Major. Archibald Willingham",male,45,0,0,26.55,B38,S,Tampere
+538,1,"LeRoy, Miss. Bertha",female,30,0,0,106.425,,C,Tampere
+539,0,"Risien, Mr. Samuel Beard",male,NA,0,0,14.5,,S,Helsinki
+540,1,"Frolicher, Miss. Hedwig Margaritha",female,22,0,2,49.5,B39,C,Tampere
+541,1,"Crosby, Miss. Harriet R",female,36,0,2,71,B22,S,Tampere
+542,0,"Andersson, Miss. Ingeborg Constanzia",female,9,4,2,31.275,,S,Helsinki
+543,0,"Andersson, Miss. Sigrid Elisabeth",female,11,4,2,31.275,,S,Helsinki
+544,1,"Beane, Mr. Edward",male,32,1,0,26,,S,Pori
+545,0,"Douglas, Mr. Walter Donald",male,50,1,0,106.425,C86,C,Tampere
+546,0,"Nicholson, Mr. Arthur Ernest",male,64,0,0,26,,S,Tampere
+547,1,"Beane, Mrs. Edward (Ethel Clarke)",female,19,1,0,26,,S,Pori
+548,1,"Padro y Manent, Mr. Julian",male,NA,0,0,13.8625,,C,Pori
+549,0,"Goldsmith, Mr. Frank John",male,33,1,1,20.525,,S,Helsinki
+550,1,"Davies, Master. John Morgan Jr",male,8,1,1,36.75,,S,Pori
+551,1,"Thayer, Mr. John Borland Jr",male,17,0,2,110.8833,C70,C,Tampere
+552,0,"Sharp, Mr. Percival James R",male,27,0,0,26,,S,Pori
+553,0,"O'Brien, Mr. Timothy",male,NA,0,0,7.8292,,Q,Helsinki
+554,1,"Leeni, Mr. Fahim (""Philip Zenni"")",male,22,0,0,7.225,,C,Helsinki
+555,1,"Ohman, Miss. Velin",female,22,0,0,7.775,,S,Helsinki
+556,0,"Wright, Mr. George",male,62,0,0,26.55,,S,Tampere
+557,1,"Duff Gordon, Lady. (Lucille Christiana Sutherland) (""Mrs Morgan"")",female,48,1,0,39.6,A16,C,Tampere
+558,0,"Robbins, Mr. Victor",male,NA,0,0,227.525,,C,Tampere
+559,1,"Taussig, Mrs. Emil (Tillie Mandelbaum)",female,39,1,1,79.65,E67,S,Tampere
+560,1,"de Messemaeker, Mrs. Guillaume Joseph (Emma)",female,36,1,0,17.4,,S,Helsinki
+561,0,"Morrow, Mr. Thomas Rowan",male,NA,0,0,7.75,,Q,Helsinki
+562,0,"Sivic, Mr. Husein",male,40,0,0,7.8958,,S,Helsinki
+563,0,"Norman, Mr. Robert Douglas",male,28,0,0,13.5,,S,Pori
+564,0,"Simmons, Mr. John",male,NA,0,0,8.05,,S,Helsinki
+565,0,"Meanwell, Miss. (Marion Ogden)",female,NA,0,0,8.05,,S,Helsinki
+566,0,"Davies, Mr. Alfred J",male,24,2,0,24.15,,S,Helsinki
+567,0,"Stoytcheff, Mr. Ilia",male,19,0,0,7.8958,,S,Helsinki
+568,0,"Palsson, Mrs. Nils (Alma Cornelia Berglund)",female,29,0,4,21.075,,S,Helsinki
+569,0,"Doharr, Mr. Tannous",male,NA,0,0,7.2292,,C,Helsinki
+570,1,"Jonsson, Mr. Carl",male,32,0,0,7.8542,,S,Helsinki
+571,1,"Harris, Mr. George",male,62,0,0,10.5,,S,Pori
+572,1,"Appleton, Mrs. Edward Dale (Charlotte Lamson)",female,53,2,0,51.4792,C101,S,Tampere
+573,1,"Flynn, Mr. John Irwin (""Irving"")",male,36,0,0,26.3875,E25,S,Tampere
+574,1,"Kelly, Miss. Mary",female,NA,0,0,7.75,,Q,Helsinki
+575,0,"Rush, Mr. Alfred George John",male,16,0,0,8.05,,S,Helsinki
+576,0,"Patchett, Mr. George",male,19,0,0,14.5,,S,Helsinki
+577,1,"Garside, Miss. Ethel",female,34,0,0,13,,S,Pori
+578,1,"Silvey, Mrs. William Baird (Alice Munger)",female,39,1,0,55.9,E44,S,Tampere
+579,0,"Caram, Mrs. Joseph (Maria Elias)",female,NA,1,0,14.4583,,C,Helsinki
+580,1,"Jussila, Mr. Eiriik",male,32,0,0,7.925,,S,Helsinki
+581,1,"Christy, Miss. Julie Rachel",female,25,1,1,30,,S,Pori
+582,1,"Thayer, Mrs. John Borland (Marian Longstreth Morris)",female,39,1,1,110.8833,C68,C,Tampere
+583,0,"Downton, Mr. William James",male,54,0,0,26,,S,Pori
+584,0,"Ross, Mr. John Hugo",male,36,0,0,40.125,A10,C,Tampere
+585,0,"Paulner, Mr. Uscher",male,NA,0,0,8.7125,,C,Helsinki
+586,1,"Taussig, Miss. Ruth",female,18,0,2,79.65,E68,S,Tampere
+587,0,"Jarvis, Mr. John Denzil",male,47,0,0,15,,S,Pori
+588,1,"Frolicher-Stehli, Mr. Maxmillian",male,60,1,1,79.2,B41,C,Tampere
+589,0,"Gilinski, Mr. Eliezer",male,22,0,0,8.05,,S,Helsinki
+590,0,"Murdlin, Mr. Joseph",male,NA,0,0,8.05,,S,Helsinki
+591,0,"Rintamaki, Mr. Matti",male,35,0,0,7.125,,S,Helsinki
+592,1,"Stephenson, Mrs. Walter Bertram (Martha Eustis)",female,52,1,0,78.2667,D20,C,Tampere
+593,0,"Elsbury, Mr. William James",male,47,0,0,7.25,,S,Helsinki
+594,0,"Bourke, Miss. Mary",female,NA,0,2,7.75,,Q,Helsinki
+595,0,"Chapman, Mr. John Henry",male,37,1,0,26,,S,Pori
+596,0,"Van Impe, Mr. Jean Baptiste",male,36,1,1,24.15,,S,Helsinki
+597,1,"Leitch, Miss. Jessie Wills",female,NA,0,0,33,,S,Pori
+598,0,"Johnson, Mr. Alfred",male,49,0,0,0,,S,Helsinki
+599,0,"Boulos, Mr. Hanna",male,NA,0,0,7.225,,C,Helsinki
+600,1,"Duff Gordon, Sir. Cosmo Edmund (""Mr Morgan"")",male,49,1,0,56.9292,A20,C,Tampere
+601,1,"Jacobsohn, Mrs. Sidney Samuel (Amy Frances Christy)",female,24,2,1,27,,S,Pori
+602,0,"Slabenoff, Mr. Petco",male,NA,0,0,7.8958,,S,Helsinki
+603,0,"Harrington, Mr. Charles H",male,NA,0,0,42.4,,S,Tampere
+604,0,"Torber, Mr. Ernst William",male,44,0,0,8.05,,S,Helsinki
+605,1,"Homer, Mr. Harry (""Mr E Haven"")",male,35,0,0,26.55,,C,Tampere
+606,0,"Lindell, Mr. Edvard Bengtsson",male,36,1,0,15.55,,S,Helsinki
+607,0,"Karaic, Mr. Milan",male,30,0,0,7.8958,,S,Helsinki
+608,1,"Daniel, Mr. Robert Williams",male,27,0,0,30.5,,S,Tampere
+609,1,"Laroche, Mrs. Joseph (Juliette Marie Louise Lafargue)",female,22,1,2,41.5792,,C,Pori
+610,1,"Shutes, Miss. Elizabeth W",female,40,0,0,153.4625,C125,S,Tampere
+611,0,"Andersson, Mrs. Anders Johan (Alfrida Konstantia Brogren)",female,39,1,5,31.275,,S,Helsinki
+612,0,"Jardin, Mr. Jose Neto",male,NA,0,0,7.05,,S,Helsinki
+613,1,"Murphy, Miss. Margaret Jane",female,NA,1,0,15.5,,Q,Helsinki
+614,0,"Horgan, Mr. John",male,NA,0,0,7.75,,Q,Helsinki
+615,0,"Brocklebank, Mr. William Alfred",male,35,0,0,8.05,,S,Helsinki
+616,1,"Herman, Miss. Alice",female,24,1,2,65,,S,Pori
+617,0,"Danbom, Mr. Ernst Gilbert",male,34,1,1,14.4,,S,Helsinki
+618,0,"Lobb, Mrs. William Arthur (Cordelia K Stanlick)",female,26,1,0,16.1,,S,Helsinki
+619,1,"Becker, Miss. Marion Louise",female,4,2,1,39,F4,S,Pori
+620,0,"Gavey, Mr. Lawrence",male,26,0,0,10.5,,S,Pori
+621,0,"Yasbeck, Mr. Antoni",male,27,1,0,14.4542,,C,Helsinki
+622,1,"Kimball, Mr. Edwin Nelson Jr",male,42,1,0,52.5542,D19,S,Tampere
+623,1,"Nakid, Mr. Sahid",male,20,1,1,15.7417,,C,Helsinki
+624,0,"Hansen, Mr. Henry Damsgaard",male,21,0,0,7.8542,,S,Helsinki
+625,0,"Bowen, Mr. David John ""Dai""",male,21,0,0,16.1,,S,Helsinki
+626,0,"Sutton, Mr. Frederick",male,61,0,0,32.3208,D50,S,Tampere
+627,0,"Kirkland, Rev. Charles Leonard",male,57,0,0,12.35,,Q,Pori
+628,1,"Longley, Miss. Gretchen Fiske",female,21,0,0,77.9583,D9,S,Tampere
+629,0,"Bostandyeff, Mr. Guentcho",male,26,0,0,7.8958,,S,Helsinki
+630,0,"O'Connell, Mr. Patrick D",male,NA,0,0,7.7333,,Q,Helsinki
+631,1,"Barkworth, Mr. Algernon Henry Wilson",male,80,0,0,30,A23,S,Tampere
+632,0,"Lundahl, Mr. Johan Svensson",male,51,0,0,7.0542,,S,Helsinki
+633,1,"Stahelin-Maeglin, Dr. Max",male,32,0,0,30.5,B50,C,Tampere
+634,0,"Parr, Mr. William Henry Marsh",male,NA,0,0,0,,S,Tampere
+635,0,"Skoog, Miss. Mabel",female,9,3,2,27.9,,S,Helsinki
+636,1,"Davis, Miss. Mary",female,28,0,0,13,,S,Pori
+637,0,"Leinonen, Mr. Antti Gustaf",male,32,0,0,7.925,,S,Helsinki
+638,0,"Collyer, Mr. Harvey",male,31,1,1,26.25,,S,Pori
+639,0,"Panula, Mrs. Juha (Maria Emilia Ojala)",female,41,0,5,39.6875,,S,Helsinki
+640,0,"Thorneycroft, Mr. Percival",male,NA,1,0,16.1,,S,Helsinki
+641,0,"Jensen, Mr. Hans Peder",male,20,0,0,7.8542,,S,Helsinki
+642,1,"Sagesser, Mlle. Emma",female,24,0,0,69.3,B35,C,Tampere
+643,0,"Skoog, Miss. Margit Elizabeth",female,2,3,2,27.9,,S,Helsinki
+644,1,"Foo, Mr. Choong",male,NA,0,0,56.4958,,S,Helsinki
+645,1,"Baclini, Miss. Eugenie",female,0.75,2,1,19.2583,,C,Helsinki
+646,1,"Harper, Mr. Henry Sleeper",male,48,1,0,76.7292,D33,C,Tampere
+647,0,"Cor, Mr. Liudevit",male,19,0,0,7.8958,,S,Helsinki
+648,1,"Simonius-Blumer, Col. Oberst Alfons",male,56,0,0,35.5,A26,C,Tampere
+649,0,"Willey, Mr. Edward",male,NA,0,0,7.55,,S,Helsinki
+650,1,"Stanley, Miss. Amy Zillah Elsie",female,23,0,0,7.55,,S,Helsinki
+651,0,"Mitkoff, Mr. Mito",male,NA,0,0,7.8958,,S,Helsinki
+652,1,"Doling, Miss. Elsie",female,18,0,1,23,,S,Pori
+653,0,"Kalvik, Mr. Johannes Halvorsen",male,21,0,0,8.4333,,S,Helsinki
+654,1,"O'Leary, Miss. Hanora ""Norah""",female,NA,0,0,7.8292,,Q,Helsinki
+655,0,"Hegarty, Miss. Hanora ""Nora""",female,18,0,0,6.75,,Q,Helsinki
+656,0,"Hickman, Mr. Leonard Mark",male,24,2,0,73.5,,S,Pori
+657,0,"Radeff, Mr. Alexander",male,NA,0,0,7.8958,,S,Helsinki
+658,0,"Bourke, Mrs. John (Catherine)",female,32,1,1,15.5,,Q,Helsinki
+659,0,"Eitemiller, Mr. George Floyd",male,23,0,0,13,,S,Pori
+660,0,"Newell, Mr. Arthur Webster",male,58,0,2,113.275,D48,C,Tampere
+661,1,"Frauenthal, Dr. Henry William",male,50,2,0,133.65,,S,Tampere
+662,0,"Badt, Mr. Mohamed",male,40,0,0,7.225,,C,Helsinki
+663,0,"Colley, Mr. Edward Pomeroy",male,47,0,0,25.5875,E58,S,Tampere
+664,0,"Coleff, Mr. Peju",male,36,0,0,7.4958,,S,Helsinki
+665,1,"Lindqvist, Mr. Eino William",male,20,1,0,7.925,,S,Helsinki
+666,0,"Hickman, Mr. Lewis",male,32,2,0,73.5,,S,Pori
+667,0,"Butler, Mr. Reginald Fenton",male,25,0,0,13,,S,Pori
+668,0,"Rommetvedt, Mr. Knud Paust",male,NA,0,0,7.775,,S,Helsinki
+669,0,"Cook, Mr. Jacob",male,43,0,0,8.05,,S,Helsinki
+670,1,"Taylor, Mrs. Elmer Zebley (Juliet Cummins Wright)",female,NA,1,0,52,C126,S,Tampere
+671,1,"Brown, Mrs. Thomas William Solomon (Elizabeth Catherine Ford)",female,40,1,1,39,,S,Pori
+672,0,"Davidson, Mr. Thornton",male,31,1,0,52,B71,S,Tampere
+673,0,"Mitchell, Mr. Henry Michael",male,70,0,0,10.5,,S,Pori
+674,1,"Wilhelms, Mr. Charles",male,31,0,0,13,,S,Pori
+675,0,"Watson, Mr. Ennis Hastings",male,NA,0,0,0,,S,Pori
+676,0,"Edvardsson, Mr. Gustaf Hjalmar",male,18,0,0,7.775,,S,Helsinki
+677,0,"Sawyer, Mr. Frederick Charles",male,24.5,0,0,8.05,,S,Helsinki
+678,1,"Turja, Miss. Anna Sofia",female,18,0,0,9.8417,,S,Helsinki
+679,0,"Goodwin, Mrs. Frederick (Augusta Tyler)",female,43,1,6,46.9,,S,Helsinki
+680,1,"Cardeza, Mr. Thomas Drake Martinez",male,36,0,1,512.3292,B51 B53 B55,C,Tampere
+681,0,"Peters, Miss. Katie",female,NA,0,0,8.1375,,Q,Helsinki
+682,1,"Hassab, Mr. Hammad",male,27,0,0,76.7292,D49,C,Tampere
+683,0,"Olsvigen, Mr. Thor Anderson",male,20,0,0,9.225,,S,Helsinki
+684,0,"Goodwin, Mr. Charles Edward",male,14,5,2,46.9,,S,Helsinki
+685,0,"Brown, Mr. Thomas William Solomon",male,60,1,1,39,,S,Pori
+686,0,"Laroche, Mr. Joseph Philippe Lemercier",male,25,1,2,41.5792,,C,Pori
+687,0,"Panula, Mr. Jaako Arnold",male,14,4,1,39.6875,,S,Helsinki
+688,0,"Dakic, Mr. Branko",male,19,0,0,10.1708,,S,Helsinki
+689,0,"Fischer, Mr. Eberhard Thelander",male,18,0,0,7.7958,,S,Helsinki
+690,1,"Madill, Miss. Georgette Alexandra",female,15,0,1,211.3375,B5,S,Tampere
+691,1,"Dick, Mr. Albert Adrian",male,31,1,0,57,B20,S,Tampere
+692,1,"Karun, Miss. Manca",female,4,0,1,13.4167,,C,Helsinki
+693,1,"Lam, Mr. Ali",male,NA,0,0,56.4958,,S,Helsinki
+694,0,"Saad, Mr. Khalil",male,25,0,0,7.225,,C,Helsinki
+695,0,"Weir, Col. John",male,60,0,0,26.55,,S,Tampere
+696,0,"Chapman, Mr. Charles Henry",male,52,0,0,13.5,,S,Pori
+697,0,"Kelly, Mr. James",male,44,0,0,8.05,,S,Helsinki
+698,1,"Mullens, Miss. Katherine ""Katie""",female,NA,0,0,7.7333,,Q,Helsinki
+699,0,"Thayer, Mr. John Borland",male,49,1,1,110.8833,C68,C,Tampere
+700,0,"Humblen, Mr. Adolf Mathias Nicolai Olsen",male,42,0,0,7.65,F G63,S,Helsinki
+701,1,"Astor, Mrs. John Jacob (Madeleine Talmadge Force)",female,18,1,0,227.525,C62 C64,C,Tampere
+702,1,"Silverthorne, Mr. Spencer Victor",male,35,0,0,26.2875,E24,S,Tampere
+703,0,"Barbara, Miss. Saiide",female,18,0,1,14.4542,,C,Helsinki
+704,0,"Gallagher, Mr. Martin",male,25,0,0,7.7417,,Q,Helsinki
+705,0,"Hansen, Mr. Henrik Juul",male,26,1,0,7.8542,,S,Helsinki
+706,0,"Morley, Mr. Henry Samuel (""Mr Henry Marshall"")",male,39,0,0,26,,S,Pori
+707,1,"Kelly, Mrs. Florence ""Fannie""",female,45,0,0,13.5,,S,Pori
+708,1,"Calderhead, Mr. Edward Pennington",male,42,0,0,26.2875,E24,S,Tampere
+709,1,"Cleaver, Miss. Alice",female,22,0,0,151.55,,S,Tampere
+710,1,"Moubarek, Master. Halim Gonios (""William George"")",male,NA,1,1,15.2458,,C,Helsinki
+711,1,"Mayne, Mlle. Berthe Antonine (""Mrs de Villiers"")",female,24,0,0,49.5042,C90,C,Tampere
+712,0,"Klaber, Mr. Herman",male,NA,0,0,26.55,C124,S,Tampere
+713,1,"Taylor, Mr. Elmer Zebley",male,48,1,0,52,C126,S,Tampere
+714,0,"Larsson, Mr. August Viktor",male,29,0,0,9.4833,,S,Helsinki
+715,0,"Greenberg, Mr. Samuel",male,52,0,0,13,,S,Pori
+716,0,"Soholt, Mr. Peter Andreas Lauritz Andersen",male,19,0,0,7.65,F G73,S,Helsinki
+717,1,"Endres, Miss. Caroline Louise",female,38,0,0,227.525,C45,C,Tampere
+718,1,"Troutt, Miss. Edwina Celia ""Winnie""",female,27,0,0,10.5,E101,S,Pori
+719,0,"McEvoy, Mr. Michael",male,NA,0,0,15.5,,Q,Helsinki
+720,0,"Johnson, Mr. Malkolm Joackim",male,33,0,0,7.775,,S,Helsinki
+721,1,"Harper, Miss. Annie Jessie ""Nina""",female,6,0,1,33,,S,Pori
+722,0,"Jensen, Mr. Svend Lauritz",male,17,1,0,7.0542,,S,Helsinki
+723,0,"Gillespie, Mr. William Henry",male,34,0,0,13,,S,Pori
+724,0,"Hodges, Mr. Henry Price",male,50,0,0,13,,S,Pori
+725,1,"Chambers, Mr. Norman Campbell",male,27,1,0,53.1,E8,S,Tampere
+726,0,"Oreskovic, Mr. Luka",male,20,0,0,8.6625,,S,Helsinki
+727,1,"Renouf, Mrs. Peter Henry (Lillian Jefferys)",female,30,3,0,21,,S,Pori
+728,1,"Mannion, Miss. Margareth",female,NA,0,0,7.7375,,Q,Helsinki
+729,0,"Bryhl, Mr. Kurt Arnold Gottfrid",male,25,1,0,26,,S,Pori
+730,0,"Ilmakangas, Miss. Pieta Sofia",female,25,1,0,7.925,,S,Helsinki
+731,1,"Allen, Miss. Elisabeth Walton",female,29,0,0,211.3375,B5,S,Tampere
+732,0,"Hassan, Mr. Houssein G N",male,11,0,0,18.7875,,C,Helsinki
+733,0,"Knight, Mr. Robert J",male,NA,0,0,0,,S,Pori
+734,0,"Berriman, Mr. William John",male,23,0,0,13,,S,Pori
+735,0,"Troupiansky, Mr. Moses Aaron",male,23,0,0,13,,S,Pori
+736,0,"Williams, Mr. Leslie",male,28.5,0,0,16.1,,S,Helsinki
+737,0,"Ford, Mrs. Edward (Margaret Ann Watson)",female,48,1,3,34.375,,S,Helsinki
+738,1,"Lesurer, Mr. Gustave J",male,35,0,0,512.3292,B101,C,Tampere
+739,0,"Ivanoff, Mr. Kanio",male,NA,0,0,7.8958,,S,Helsinki
+740,0,"Nankoff, Mr. Minko",male,NA,0,0,7.8958,,S,Helsinki
+741,1,"Hawksford, Mr. Walter James",male,NA,0,0,30,D45,S,Tampere
+742,0,"Cavendish, Mr. Tyrell William",male,36,1,0,78.85,C46,S,Tampere
+743,1,"Ryerson, Miss. Susan Parker ""Suzette""",female,21,2,2,262.375,B57 B59 B63 B66,C,Tampere
+744,0,"McNamee, Mr. Neal",male,24,1,0,16.1,,S,Helsinki
+745,1,"Stranden, Mr. Juho",male,31,0,0,7.925,,S,Helsinki
+746,0,"Crosby, Capt. Edward Gifford",male,70,1,1,71,B22,S,Tampere
+747,0,"Abbott, Mr. Rossmore Edward",male,16,1,1,20.25,,S,Helsinki
+748,1,"Sinkkonen, Miss. Anna",female,30,0,0,13,,S,Pori
+749,0,"Marvin, Mr. Daniel Warner",male,19,1,0,53.1,D30,S,Tampere
+750,0,"Connaghton, Mr. Michael",male,31,0,0,7.75,,Q,Helsinki
+751,1,"Wells, Miss. Joan",female,4,1,1,23,,S,Pori
+752,1,"Moor, Master. Meier",male,6,0,1,12.475,E121,S,Helsinki
+753,0,"Vande Velde, Mr. Johannes Joseph",male,33,0,0,9.5,,S,Helsinki
+754,0,"Jonkoff, Mr. Lalio",male,23,0,0,7.8958,,S,Helsinki
+755,1,"Herman, Mrs. Samuel (Jane Laver)",female,48,1,2,65,,S,Pori
+756,1,"Hamalainen, Master. Viljo",male,0.67,1,1,14.5,,S,Pori
+757,0,"Carlsson, Mr. August Sigfrid",male,28,0,0,7.7958,,S,Helsinki
+758,0,"Bailey, Mr. Percy Andrew",male,18,0,0,11.5,,S,Pori
+759,0,"Theobald, Mr. Thomas Leonard",male,34,0,0,8.05,,S,Helsinki
+760,1,"Rothes, the Countess. of (Lucy Noel Martha Dyer-Edwards)",female,33,0,0,86.5,B77,S,Tampere
+761,0,"Garfirth, Mr. John",male,NA,0,0,14.5,,S,Helsinki
+762,0,"Nirva, Mr. Iisakki Antino Aijo",male,41,0,0,7.125,,S,Helsinki
+763,1,"Barah, Mr. Hanna Assi",male,20,0,0,7.2292,,C,Helsinki
+764,1,"Carter, Mrs. William Ernest (Lucile Polk)",female,36,1,2,120,B96 B98,S,Tampere
+765,0,"Eklund, Mr. Hans Linus",male,16,0,0,7.775,,S,Helsinki
+766,1,"Hogeboom, Mrs. John C (Anna Andrews)",female,51,1,0,77.9583,D11,S,Tampere
+767,0,"Brewe, Dr. Arthur Jackson",male,NA,0,0,39.6,,C,Tampere
+768,0,"Mangan, Miss. Mary",female,30.5,0,0,7.75,,Q,Helsinki
+769,0,"Moran, Mr. Daniel J",male,NA,1,0,24.15,,Q,Helsinki
+770,0,"Gronnestad, Mr. Daniel Danielsen",male,32,0,0,8.3625,,S,Helsinki
+771,0,"Lievens, Mr. Rene Aime",male,24,0,0,9.5,,S,Helsinki
+772,0,"Jensen, Mr. Niels Peder",male,48,0,0,7.8542,,S,Helsinki
+773,0,"Mack, Mrs. (Mary)",female,57,0,0,10.5,E77,S,Pori
+774,0,"Elias, Mr. Dibo",male,NA,0,0,7.225,,C,Helsinki
+775,1,"Hocking, Mrs. Elizabeth (Eliza Needs)",female,54,1,3,23,,S,Pori
+776,0,"Myhrman, Mr. Pehr Fabian Oliver Malkolm",male,18,0,0,7.75,,S,Helsinki
+777,0,"Tobin, Mr. Roger",male,NA,0,0,7.75,F38,Q,Helsinki
+778,1,"Emanuel, Miss. Virginia Ethel",female,5,0,0,12.475,,S,Helsinki
+779,0,"Kilgannon, Mr. Thomas J",male,NA,0,0,7.7375,,Q,Helsinki
+780,1,"Robert, Mrs. Edward Scott (Elisabeth Walton McMillan)",female,43,0,1,211.3375,B3,S,Tampere
+781,1,"Ayoub, Miss. Banoura",female,13,0,0,7.2292,,C,Helsinki
+782,1,"Dick, Mrs. Albert Adrian (Vera Gillespie)",female,17,1,0,57,B20,S,Tampere
+783,0,"Long, Mr. Milton Clyde",male,29,0,0,30,D6,S,Tampere
+784,0,"Johnston, Mr. Andrew G",male,NA,1,2,23.45,,S,Helsinki
+785,0,"Ali, Mr. William",male,25,0,0,7.05,,S,Helsinki
+786,0,"Harmer, Mr. Abraham (David Lishin)",male,25,0,0,7.25,,S,Helsinki
+787,1,"Sjoblom, Miss. Anna Sofia",female,18,0,0,7.4958,,S,Helsinki
+788,0,"Rice, Master. George Hugh",male,8,4,1,29.125,,Q,Helsinki
+789,1,"Dean, Master. Bertram Vere",male,1,1,2,20.575,,S,Helsinki
+790,0,"Guggenheim, Mr. Benjamin",male,46,0,0,79.2,B82 B84,C,Tampere
+791,0,"Keane, Mr. Andrew ""Andy""",male,NA,0,0,7.75,,Q,Helsinki
+792,0,"Gaskell, Mr. Alfred",male,16,0,0,26,,S,Pori
+793,0,"Sage, Miss. Stella Anna",female,NA,8,2,69.55,,S,Helsinki
+794,0,"Hoyt, Mr. William Fisher",male,NA,0,0,30.6958,,C,Tampere
+795,0,"Dantcheff, Mr. Ristiu",male,25,0,0,7.8958,,S,Helsinki
+796,0,"Otter, Mr. Richard",male,39,0,0,13,,S,Pori
+797,1,"Leader, Dr. Alice (Farnham)",female,49,0,0,25.9292,D17,S,Tampere
+798,1,"Osman, Mrs. Mara",female,31,0,0,8.6833,,S,Helsinki
+799,0,"Ibrahim Shawah, Mr. Yousseff",male,30,0,0,7.2292,,C,Helsinki
+800,0,"Van Impe, Mrs. Jean Baptiste (Rosalie Paula Govaert)",female,30,1,1,24.15,,S,Helsinki
+801,0,"Ponesell, Mr. Martin",male,34,0,0,13,,S,Pori
+802,1,"Collyer, Mrs. Harvey (Charlotte Annie Tate)",female,31,1,1,26.25,,S,Pori
+803,1,"Carter, Master. William Thornton II",male,11,1,2,120,B96 B98,S,Tampere
+804,1,"Thomas, Master. Assad Alexander",male,0.42,0,1,8.5167,,C,Helsinki
+805,1,"Hedman, Mr. Oskar Arvid",male,27,0,0,6.975,,S,Helsinki
+806,0,"Johansson, Mr. Karl Johan",male,31,0,0,7.775,,S,Helsinki
+807,0,"Andrews, Mr. Thomas Jr",male,39,0,0,0,A36,S,Tampere
+808,0,"Pettersson, Miss. Ellen Natalia",female,18,0,0,7.775,,S,Helsinki
+809,0,"Meyer, Mr. August",male,39,0,0,13,,S,Pori
+810,1,"Chambers, Mrs. Norman Campbell (Bertha Griggs)",female,33,1,0,53.1,E8,S,Tampere
+811,0,"Alexander, Mr. William",male,26,0,0,7.8875,,S,Helsinki
+812,0,"Lester, Mr. James",male,39,0,0,24.15,,S,Helsinki
+813,0,"Slemen, Mr. Richard James",male,35,0,0,10.5,,S,Pori
+814,0,"Andersson, Miss. Ebba Iris Alfrida",female,6,4,2,31.275,,S,Helsinki
+815,0,"Tomlin, Mr. Ernest Portage",male,30.5,0,0,8.05,,S,Helsinki
+816,0,"Fry, Mr. Richard",male,NA,0,0,0,B102,S,Tampere
+817,0,"Heininen, Miss. Wendla Maria",female,23,0,0,7.925,,S,Helsinki
+818,0,"Mallet, Mr. Albert",male,31,1,1,37.0042,,C,Pori
+819,0,"Holm, Mr. John Fredrik Alexander",male,43,0,0,6.45,,S,Helsinki
+820,0,"Skoog, Master. Karl Thorsten",male,10,3,2,27.9,,S,Helsinki
+821,1,"Hays, Mrs. Charles Melville (Clara Jennings Gregg)",female,52,1,1,93.5,B69,S,Tampere
+822,1,"Lulic, Mr. Nikola",male,27,0,0,8.6625,,S,Helsinki
+823,0,"Reuchlin, Jonkheer. John George",male,38,0,0,0,,S,Tampere
+824,1,"Moor, Mrs. (Beila)",female,27,0,1,12.475,E121,S,Helsinki
+825,0,"Panula, Master. Urho Abraham",male,2,4,1,39.6875,,S,Helsinki
+826,0,"Flynn, Mr. John",male,NA,0,0,6.95,,Q,Helsinki
+827,0,"Lam, Mr. Len",male,NA,0,0,56.4958,,S,Helsinki
+828,1,"Mallet, Master. Andre",male,1,0,2,37.0042,,C,Pori
+829,1,"McCormack, Mr. Thomas Joseph",male,NA,0,0,7.75,,Q,Helsinki
+830,1,"Stone, Mrs. George Nelson (Martha Evelyn)",female,62,0,0,80,B28,,Tampere
+831,1,"Yasbeck, Mrs. Antoni (Selini Alexander)",female,15,1,0,14.4542,,C,Helsinki
+832,1,"Richards, Master. George Sibley",male,0.83,1,1,18.75,,S,Pori
+833,0,"Saad, Mr. Amin",male,NA,0,0,7.2292,,C,Helsinki
+834,0,"Augustsson, Mr. Albert",male,23,0,0,7.8542,,S,Helsinki
+835,0,"Allum, Mr. Owen George",male,18,0,0,8.3,,S,Helsinki
+836,1,"Compton, Miss. Sara Rebecca",female,39,1,1,83.1583,E49,C,Tampere
+837,0,"Pasic, Mr. Jakob",male,21,0,0,8.6625,,S,Helsinki
+838,0,"Sirota, Mr. Maurice",male,NA,0,0,8.05,,S,Helsinki
+839,1,"Chip, Mr. Chang",male,32,0,0,56.4958,,S,Helsinki
+840,1,"Marechal, Mr. Pierre",male,NA,0,0,29.7,C47,C,Tampere
+841,0,"Alhomaki, Mr. Ilmari Rudolf",male,20,0,0,7.925,,S,Helsinki
+842,0,"Mudd, Mr. Thomas Charles",male,16,0,0,10.5,,S,Pori
+843,1,"Serepeca, Miss. Augusta",female,30,0,0,31,,C,Tampere
+844,0,"Lemberopolous, Mr. Peter L",male,34.5,0,0,6.4375,,C,Helsinki
+845,0,"Culumovic, Mr. Jeso",male,17,0,0,8.6625,,S,Helsinki
+846,0,"Abbing, Mr. Anthony",male,42,0,0,7.55,,S,Helsinki
+847,0,"Sage, Mr. Douglas Bullen",male,NA,8,2,69.55,,S,Helsinki
+848,0,"Markoff, Mr. Marin",male,35,0,0,7.8958,,C,Helsinki
+849,0,"Harper, Rev. John",male,28,0,1,33,,S,Pori
+850,1,"Goldenberg, Mrs. Samuel L (Edwiga Grabowska)",female,NA,1,0,89.1042,C92,C,Tampere
+851,0,"Andersson, Master. Sigvard Harald Elias",male,4,4,2,31.275,,S,Helsinki
+852,0,"Svensson, Mr. Johan",male,74,0,0,7.775,,S,Helsinki
+853,0,"Boulos, Miss. Nourelain",female,9,1,1,15.2458,,C,Helsinki
+854,1,"Lines, Miss. Mary Conover",female,16,0,1,39.4,D28,S,Tampere
+855,0,"Carter, Mrs. Ernest Courtenay (Lilian Hughes)",female,44,1,0,26,,S,Pori
+856,1,"Aks, Mrs. Sam (Leah Rosen)",female,18,0,1,9.35,,S,Helsinki
+857,1,"Wick, Mrs. George Dennick (Mary Hitchcock)",female,45,1,1,164.8667,,S,Tampere
+858,1,"Daly, Mr. Peter Denis ",male,51,0,0,26.55,E17,S,Tampere
+859,1,"Baclini, Mrs. Solomon (Latifa Qurban)",female,24,0,3,19.2583,,C,Helsinki
+860,0,"Razi, Mr. Raihed",male,NA,0,0,7.2292,,C,Helsinki
+861,0,"Hansen, Mr. Claus Peter",male,41,2,0,14.1083,,S,Helsinki
+862,0,"Giles, Mr. Frederick Edward",male,21,1,0,11.5,,S,Pori
+863,1,"Swift, Mrs. Frederick Joel (Margaret Welles Barron)",female,48,0,0,25.9292,D17,S,Tampere
+864,0,"Sage, Miss. Dorothy Edith ""Dolly""",female,NA,8,2,69.55,,S,Helsinki
+865,0,"Gill, Mr. John William",male,24,0,0,13,,S,Pori
+866,1,"Bystrom, Mrs. (Karolina)",female,42,0,0,13,,S,Pori
+867,1,"Duran y More, Miss. Asuncion",female,27,1,0,13.8583,,C,Pori
+868,0,"Roebling, Mr. Washington Augustus II",male,31,0,0,50.4958,A24,S,Tampere
+869,0,"van Melkebeke, Mr. Philemon",male,NA,0,0,9.5,,S,Helsinki
+870,1,"Johnson, Master. Harold Theodor",male,4,1,1,11.1333,,S,Helsinki
+871,0,"Balkic, Mr. Cerin",male,26,0,0,7.8958,,S,Helsinki
+872,1,"Beckwith, Mrs. Richard Leonard (Sallie Monypeny)",female,47,1,1,52.5542,D35,S,Tampere
+873,0,"Carlsson, Mr. Frans Olof",male,33,0,0,5,B51 B53 B55,S,Tampere
+874,0,"Vander Cruyssen, Mr. Victor",male,47,0,0,9,,S,Helsinki
+875,1,"Abelson, Mrs. Samuel (Hannah Wizosky)",female,28,1,0,24,,C,Pori
+876,1,"Najib, Miss. Adele Kiamie ""Jane""",female,15,0,0,7.225,,C,Helsinki
+877,0,"Gustafsson, Mr. Alfred Ossian",male,20,0,0,9.8458,,S,Helsinki
+878,0,"Petroff, Mr. Nedelio",male,19,0,0,7.8958,,S,Helsinki
+879,0,"Laleff, Mr. Kristo",male,NA,0,0,7.8958,,S,Helsinki
+880,1,"Potter, Mrs. Thomas Jr (Lily Alexenia Wilson)",female,56,0,1,83.1583,C50,C,Tampere
+881,1,"Shelley, Mrs. William (Imanita Parrish Hall)",female,25,0,1,26,,S,Pori
+882,0,"Markun, Mr. Johann",male,33,0,0,7.8958,,S,Helsinki
+883,0,"Dahlberg, Miss. Gerda Ulrika",female,22,0,0,10.5167,,S,Helsinki
+884,0,"Banfield, Mr. Frederick James",male,28,0,0,10.5,,S,Pori
+885,0,"Sutehall, Mr. Henry Jr",male,25,0,0,7.05,,S,Helsinki
+886,0,"Rice, Mrs. William (Margaret Norton)",female,39,0,5,29.125,,Q,Helsinki
+887,0,"Montvila, Rev. Juozas",male,27,0,0,13,,S,Pori
+888,1,"Graham, Miss. Margaret Edith",female,19,0,0,30,B42,S,Tampere
+889,0,"Johnston, Miss. Catherine Helen ""Carrie""",female,NA,1,2,23.45,,S,Helsinki
+890,1,"Behr, Mr. Karl Howell",male,26,0,0,30,C148,C,Tampere
+891,0,"Dooley, Mr. Patrick",male,32,0,0,7.75,,Q,Helsinki
