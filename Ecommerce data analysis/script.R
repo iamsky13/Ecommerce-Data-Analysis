@@ -40,13 +40,21 @@ table(train$city)
 
 library(ggplot2)
 
+#city vs sell
 ggplot(train, aes(x = city, fill = factor(Sell))) +
 geom_bar(width = 0.5) +
 xlab("City") +
 ylab("Number") +
 labs(fill = "Sells")
 
+#sex vs sell
+ggplot(train, aes(x = Sex, fill = factor(Sell))) +
+geom_bar(width = 0.5) +
+xlab("Gender") +
+ylab("Number") +
+labs(fill = "Sells")
 
+#both vs sell
 ggplot(train, aes(x = Sex, fill = factor(Sell))) +
 geom_bar(width = 0.5) +
 facet_wrap(~city) +
@@ -68,3 +76,30 @@ xlab("parent children") +
 ylab("Number") +
 labs(fill = "Sells")
 
+#chk data repeat
+length(unique(as.character(train$Name)))
+
+library(stringr)
+
+
+extractTitle <- function(name) {
+    name <- as.character(name)
+
+    if (length(grep("Miss.", name)) > 0) {
+        return("Miss.")
+    } else if (length(grep("Master.", name)) > 0) {
+        return("Master.")
+    } else if (length(grep("Mrs.", name)) > 0) {
+        return("Mrs.")
+    } else if (length(grep("Mr.", name)) > 0) {
+        return("Mr.")
+    } else {
+        return("Other")
+    }
+}
+
+titles <- NULL
+for (i in 1:nrow(train)) {
+    titles <- c(titles, extractTitle(train[i, "Name"]))
+}
+train$title <- as.factor(titles)
