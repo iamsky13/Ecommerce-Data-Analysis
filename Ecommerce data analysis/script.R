@@ -103,3 +103,16 @@ for (i in 1:nrow(train)) {
     titles <- c(titles, extractTitle(train[i, "Name"]))
 }
 train$title <- as.factor(titles)
+
+ggplot(train, aes(x = title, fill = Sell)) +
+geom_bar(width = 0.5) +
+facet_wrap(~city) +
+xlab("Titles") +
+ylab("number") +
+labs(fill = "Sell")
+
+ggplot(train, aes(x = Age, fill = Sell)) +
+  facet_wrap(~Sex + city) +
+  geom_histogram(binwidth = 10) +
+  xlab("Age") +
+  ylab("Total Count")
