@@ -155,5 +155,42 @@ ggplot(train, aes(x = family.size, fill = Sell)) +
   ggtitle("city, Title") +
   xlab("family.size") +
   ylab("Total Count") +
-  ylim(0, 200) +
+  ylim(0, 150) +
   labs(fill = "Sell")
+
+
+
+library(randomForest)
+
+rf.train.1 <- train[, c("city", "title")]
+rf.label <- (train$Sell)
+
+set.seed(1234)
+rf.1 <- randomForest(x = rf.train.1, y = rf.label, importance = TRUE, ntree = 1000)
+rf.1
+varImpPlot(rf.1)
+
+# Train a Random Forest using pclass, title, & sibsp
+rf.train.2 <- train[, c("city", "title", "Sib_Sp")]
+
+set.seed(1234)
+rf.2 <- randomForest(x = rf.train.2, y = rf.label, importance = TRUE, ntree = 1000)
+rf.2
+varImpPlot(rf.2)
+
+# Train a Random Forest using pclass, title, & parch
+rf.train.3 <- train[, c("city", "title", "Par_ch")]
+
+set.seed(1234)
+rf.3 <- randomForest(x = rf.train.3, y = rf.label, importance = TRUE, ntree = 1000)
+rf.3
+varImpPlot(rf.3)
+
+
+# Train a Random Forest using pclass, title, & family.size
+rf.train.4 <- train[1:891, c("city", "title", "family.size")]
+
+set.seed(1234)
+rf.4 <- randomForest(x = rf.train.4, y = rf.label, importance = TRUE, ntree = 1000)
+rf.4
+varImpPlot(rf.4)
