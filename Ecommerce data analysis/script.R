@@ -132,3 +132,28 @@ ggplot(train, aes(x = Age, fill = Sell)) +
   geom_histogram(binwidth = 10) +
   xlab("Age") +
   ylab("Total Count")
+
+#boy
+
+boys <- train[which(train$title == "Master."),]
+summary(boys$Age)
+
+#miss
+miss <- train[which(train$title == "Miss."),]
+summary(miss$Age)
+
+#familysize
+temp.sibsp <- c(train$Sib_Sp)
+temp.parch <- c(train$Par_ch)
+train$family.size <- as.factor(temp.sibsp + temp.parch + 1)
+
+
+# Visualize it to see if it is predictive
+ggplot(train, aes(x = family.size, fill = Sell)) +
+  stat_count(width = 1) +
+  facet_wrap(~city + title) +
+  ggtitle("city, Title") +
+  xlab("family.size") +
+  ylab("Total Count") +
+  ylim(0, 200) +
+  labs(fill = "Sell")
