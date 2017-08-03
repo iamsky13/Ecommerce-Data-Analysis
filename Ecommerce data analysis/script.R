@@ -76,6 +76,15 @@ xlab("parent children") +
 ylab("Number") +
 labs(fill = "Sells")
 
+summary(train$Cost)
+
+ggplot(train, aes(x = Payment, fill = factor(Sell))) +
+geom_bar(width = 0.5) +
+facet_wrap(~city) +
+xlab("parent children") +
+ylab("Number") +
+labs(fill = "Sells")
+
 #chk data repeat
 length(unique(as.character(train$Name)))
 
@@ -106,10 +115,17 @@ train$title <- as.factor(titles)
 
 ggplot(train, aes(x = title, fill = Sell)) +
 geom_bar(width = 0.5) +
+xlab("Titles") +
+ylab("number") +
+labs(fill = "Sell")
+
+ggplot(train, aes(x = title, fill = Sell)) +
+geom_bar(width = 0.5) +
 facet_wrap(~city) +
 xlab("Titles") +
 ylab("number") +
 labs(fill = "Sell")
+
 
 ggplot(train, aes(x = Age, fill = Sell)) +
   facet_wrap(~Sex + city) +
